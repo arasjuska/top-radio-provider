@@ -22,9 +22,17 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+      - name: Checkout global IPRD catalog
+        uses: actions/checkout@v4
+        with:
+          repository: iprd-org/iprd
+          path: vendor/iprd
+          sparse-checkout: streams
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -36,15 +44,17 @@ jobs:
         run: node scripts/sanitize-provider.mjs
       - name: Enrich station logos and metadata
         run: node scripts/enrich-logos.mjs
+      - name: Build global sharded search catalog
+        run: node scripts/build-global-catalog.mjs
       - name: Commit refreshed provider data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/stations.json dist/status.json
+          git add dist/stations.json dist/status.json dist/catalog
           if git diff --cached --quiet; then
             echo "Provider data unchanged"
             exit 0
           fi
-          git commit -m "chore: refresh verified radio streams"
+          git commit -m "chore: refresh verified radio streams and global catalog"
           git pull --rebase origin master
           git push origin master
