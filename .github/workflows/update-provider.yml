@@ -46,6 +46,8 @@ jobs:
         run: node scripts/enrich-logos.mjs
       - name: Build global sharded search catalog
         run: node scripts/build-global-catalog.mjs
+      - name: Build country catalog indexes
+        run: node scripts/build-country-index.mjs
       - name: Commit refreshed provider data
         run: |
           git config user.name "github-actions[bot]"
