@@ -32,6 +32,8 @@ jobs:
         run: npm test
       - name: Validate streams and build provider
         run: npm run build
+      - name: Enrich station logos and metadata
+        run: node scripts/enrich-logos.mjs
       - name: Commit refreshed provider data
         run: |
           git config user.name "github-actions[bot]"
