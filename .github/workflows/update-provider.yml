@@ -32,6 +32,8 @@ jobs:
         run: npm test
       - name: Validate streams and build provider
         run: npm run build
+      - name: Sanitize HLS audio metadata
+        run: node scripts/sanitize-provider.mjs
       - name: Enrich station logos and metadata
         run: node scripts/enrich-logos.mjs
       - name: Commit refreshed provider data
