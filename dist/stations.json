@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T19:02:16.972Z",
+  "generatedAt": "2026-08-19T01:57:21.823Z",
   "provider": "Top Radio Provider",
   "policy": {
     "qualityFirst": true,
@@ -14,8 +14,8 @@
   },
   "stats": {
     "stations": 97,
-    "playable": 88,
-    "offline": 9,
+    "playable": 90,
+    "offline": 7,
     "verifiedStreams": 225
   },
   "stations": [
@@ -44,9 +44,9 @@
         "source": "official",
         "identityConfidence": 100,
         "finalUrl": "https://stream-live.lrt.lt/radio_radijas/320k/lrt_radijas.m3u8",
-        "latencyMs": 631,
-        "verifiedAt": "2026-08-18T19:00:50.548Z",
-        "score": 94874
+        "latencyMs": 963,
+        "verifiedAt": "2026-08-19T01:55:58.312Z",
+        "score": 94807
       },
       "fallbacks": [
         {
@@ -58,16 +58,16 @@
           "identityConfidence": 92,
           "stationuuid": "9d7164f4-a886-4b05-be3c-f54229e443f4",
           "finalUrl": "https://stream-live.lrt.lt/radijas/stream03/streamPlaylist.m3u8",
-          "latencyMs": 675,
-          "verifiedAt": "2026-08-18T19:00:49.917Z",
-          "score": 23825
+          "latencyMs": 425,
+          "verifiedAt": "2026-08-19T01:55:57.348Z",
+          "score": 23875
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:50.548Z",
+      "verifiedAt": "2026-08-19T01:55:58.312Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lrt-radijas.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lrt-radijas.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.lrt.lt/favicon.ico"
     },
@@ -95,9 +95,9 @@
         "source": "official",
         "identityConfidence": 100,
         "finalUrl": "https://stream-live.lrt.lt/radio_opus/320k/lrt_opus.m3u8",
-        "latencyMs": 490,
-        "verifiedAt": "2026-08-18T19:00:50.405Z",
-        "score": 95502
+        "latencyMs": 113,
+        "verifiedAt": "2026-08-19T01:55:57.968Z",
+        "score": 95577
       },
       "fallbacks": [
         {
@@ -109,16 +109,16 @@
           "identityConfidence": 92,
           "stationuuid": "3ec0a854-2e08-4cac-b2d1-5c418a87a4a1",
           "finalUrl": "https://stream-live.lrt.lt/opus/stream03/streamPlaylist.m3u8",
-          "latencyMs": 671,
-          "verifiedAt": "2026-08-18T19:00:49.914Z",
-          "score": 23826
+          "latencyMs": 840,
+          "verifiedAt": "2026-08-19T01:55:57.854Z",
+          "score": 23792
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:50.405Z",
+      "verifiedAt": "2026-08-19T01:55:57.968Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lrt-opus.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lrt-opus.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.lrt.lt/favicon.ico"
     },
@@ -136,38 +136,23 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://radio.m-1.fm/m1/mp3",
-        "source": "iprd",
-        "identityConfidence": 100,
-        "finalUrl": "http://radio.m-1.fm/m1/mp3",
+        "url": "http://radio.m-1.fm/m1/MP3320",
         "codec": "MP3",
-        "bitrate": 448,
-        "sampling": 44100,
+        "bitrate": 320,
+        "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
+        "trusted": true,
+        "official": true,
+        "source": "official",
+        "identityConfidence": 100,
+        "finalUrl": "http://radio.m-1.fm/m1/MP3320",
         "icyName": "M-1",
-        "latencyMs": 1981,
-        "verifiedAt": "2026-08-18T19:00:57.250Z",
-        "score": 95204
+        "latencyMs": 1351,
+        "verifiedAt": "2026-08-19T01:56:00.244Z",
+        "score": 85330
       },
       "fallbacks": [
-        {
-          "url": "http://radio.m-1.fm/m1/MP3320",
-          "codec": "MP3",
-          "bitrate": 320,
-          "sampling": 48000,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "http://radio.m-1.fm/m1/MP3320",
-          "icyName": "M-1",
-          "latencyMs": 1564,
-          "verifiedAt": "2026-08-18T19:00:50.184Z",
-          "score": 85287
-        },
         {
           "url": "https://stream.m-1.fm/m1/mp3",
           "codec": "MP3",
@@ -181,9 +166,24 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.m-1.fm/m1/mp3",
           "icyName": "M-1",
-          "latencyMs": 3159,
-          "verifiedAt": "2026-08-18T19:00:55.269Z",
-          "score": 72168
+          "latencyMs": 2066,
+          "verifiedAt": "2026-08-19T01:56:03.087Z",
+          "score": 72387
+        },
+        {
+          "url": "http://radio.m-1.fm/m1/mp3",
+          "source": "iprd",
+          "identityConfidence": 100,
+          "finalUrl": "http://radio.m-1.fm/m1/mp3",
+          "codec": "MP3",
+          "bitrate": 192,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "icyName": "M-1",
+          "latencyMs": 1790,
+          "verifiedAt": "2026-08-19T01:56:04.877Z",
+          "score": 69642
         },
         {
           "url": "http://stream.m-1.fm/M-1aacp",
@@ -196,16 +196,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "M-1",
-          "latencyMs": 1801,
-          "verifiedAt": "2026-08-18T19:00:59.051Z",
-          "score": 69640
+          "latencyMs": 2263,
+          "verifiedAt": "2026-08-19T01:56:07.141Z",
+          "score": 69547
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:00:59.051Z",
+      "verifiedAt": "2026-08-19T01:56:07.141Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-m1.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-m1.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://m-1.15min.lt/content/uploads/2025/05/cropped-profile_m1-180x180.jpg"
     },
@@ -235,11 +235,28 @@
         "identityConfidence": 100,
         "finalUrl": "http://radio.m-1.fm/M-1PLIUS",
         "icyName": "M-1 Plius",
-        "latencyMs": 1652,
-        "verifiedAt": "2026-08-18T19:00:58.836Z",
-        "score": 72470
+        "latencyMs": 1708,
+        "verifiedAt": "2026-08-19T01:56:07.170Z",
+        "score": 72458
       },
       "fallbacks": [
+        {
+          "url": "http://stream.m-1.fm/m1plius/mp3",
+          "codec": "MP3",
+          "bitrate": 192,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "http://stream.m-1.fm/m1plius/mp3",
+          "icyName": "M-1 Plius",
+          "latencyMs": 1993,
+          "verifiedAt": "2026-08-19T01:56:05.078Z",
+          "score": 72401
+        },
         {
           "url": "https://radio.m-1.fm/m1plius/aacp64",
           "codec": "AAC",
@@ -253,9 +270,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://radio.m-1.fm/m1plius/aacp64",
           "icyName": "M-1 Plius",
-          "latencyMs": 3406,
-          "verifiedAt": "2026-08-18T19:00:54.573Z",
-          "score": 72419
+          "latencyMs": 3778,
+          "verifiedAt": "2026-08-19T01:56:03.084Z",
+          "score": 72344
         },
         {
           "url": "http://radio.m-1.fm/m1plius/mp3",
@@ -270,33 +287,16 @@
           "identityConfidence": 100,
           "finalUrl": "http://radio.m-1.fm/m1plius/mp3",
           "icyName": "M-1 Plius",
-          "latencyMs": 1972,
-          "verifiedAt": "2026-08-18T19:00:51.167Z",
-          "score": 72406
-        },
-        {
-          "url": "http://stream.m-1.fm/m1plius/mp3",
-          "codec": "MP3",
-          "bitrate": 144,
-          "sampling": 22050,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "http://stream.m-1.fm/m1plius/mp3",
-          "icyName": "M-1 Plius",
-          "latencyMs": 1936,
-          "verifiedAt": "2026-08-18T19:00:56.510Z",
-          "score": 67613
+          "latencyMs": 2390,
+          "verifiedAt": "2026-08-19T01:55:59.306Z",
+          "score": 72322
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:00:58.836Z",
+      "verifiedAt": "2026-08-19T01:56:07.170Z",
       "tags": "uab m-1",
       "language": "lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-m1-plius.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-m1-plius.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://pliusas.15min.lt/wp-content/uploads/cropped-profile_pliusas-180x180.jpg"
     },
@@ -314,45 +314,45 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://radio.m-1.fm/lietus/mp3",
-        "codec": "MP3",
-        "bitrate": 192,
-        "sampling": 44100,
+        "url": "https://stream.m-1.fm/lietus/aacp64",
+        "codec": "AAC",
+        "bitrate": 97,
+        "sampling": 32000,
         "bitDepth": 0,
         "hls": 0,
         "trusted": true,
         "official": true,
         "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "http://radio.m-1.fm/lietus/mp3",
+        "finalUrl": "https://stream.m-1.fm/lietus/aacp64",
         "icyName": "Lietus",
-        "latencyMs": 1768,
-        "verifiedAt": "2026-08-18T19:00:56.265Z",
-        "score": 72446
+        "latencyMs": 3967,
+        "verifiedAt": "2026-08-19T01:56:04.171Z",
+        "score": 72507
       },
       "fallbacks": [
         {
-          "url": "https://stream.m-1.fm/lietus/aacp64",
-          "codec": "AAC",
-          "bitrate": 95,
-          "sampling": 32000,
+          "url": "http://radio.m-1.fm/lietus/mp3",
+          "codec": "MP3",
+          "bitrate": 192,
+          "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
           "official": true,
           "source": "official",
           "identityConfidence": 100,
-          "finalUrl": "https://stream.m-1.fm/lietus/aacp64",
+          "finalUrl": "http://radio.m-1.fm/lietus/mp3",
           "icyName": "Lietus",
-          "latencyMs": 4300,
-          "verifiedAt": "2026-08-18T19:00:54.322Z",
-          "score": 72240
+          "latencyMs": 1857,
+          "verifiedAt": "2026-08-19T01:56:06.433Z",
+          "score": 72429
         },
         {
           "url": "https://radio.m-1.fm/LIETUS",
           "codec": "MP3",
-          "bitrate": 160,
-          "sampling": 48000,
+          "bitrate": 192,
+          "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
@@ -361,16 +361,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://radio.m-1.fm/LIETUS",
           "icyName": "Lietus",
-          "latencyMs": 2671,
-          "verifiedAt": "2026-08-18T19:00:50.021Z",
-          "score": 69066
+          "latencyMs": 2950,
+          "verifiedAt": "2026-08-19T01:56:00.204Z",
+          "score": 72210
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:00:56.266Z",
+      "verifiedAt": "2026-08-19T01:56:06.434Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lietus.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-lietus.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://lietus.15min.lt/content/uploads/cropped-lietus_320-180x180.jpg"
     },
@@ -400,16 +400,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream2.rc.lt/rc128.mp3",
         "icyName": "RC",
-        "latencyMs": 1608,
-        "verifiedAt": "2026-08-18T19:00:48.486Z",
-        "score": 66078
+        "latencyMs": 1658,
+        "verifiedAt": "2026-08-19T01:55:58.670Z",
+        "score": 66068
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:49.276Z",
+      "verifiedAt": "2026-08-19T01:55:59.505Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-radiocentras.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-radiocentras.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://rczipbucket.s3.eu-north-1.amazonaws.com/rc/1665234650.jpg"
     },
@@ -428,8 +428,8 @@
       "best": {
         "url": "https://stream2.zipfm.lt/zipfm128.mp3",
         "codec": "MP3",
-        "bitrate": 80,
-        "sampling": 32000,
+        "bitrate": 128,
+        "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
         "trusted": true,
@@ -438,33 +438,33 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream2.zipfm.lt/zipfm128.mp3",
         "icyName": "ZIP FM",
-        "latencyMs": 1187,
-        "verifiedAt": "2026-08-18T19:00:48.020Z",
-        "score": 61363
+        "latencyMs": 1253,
+        "verifiedAt": "2026-08-19T01:55:58.160Z",
+        "score": 66149
       },
       "fallbacks": [
         {
           "url": "https://stream1.zipfm.lt/zipfm128.mp3",
           "codec": "MP3",
-          "bitrate": 96,
+          "bitrate": 128,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
           "stationuuid": "e92f0589-c3d4-4054-8718-8dd204cf03d6",
           "finalUrl": "https://stream1.zipfm.lt/zipfm128.mp3",
-          "sampling": 24000,
+          "sampling": 48000,
           "bitDepth": 0,
           "icyName": "ZIP FM",
-          "latencyMs": 1432,
-          "verifiedAt": "2026-08-18T19:00:49.453Z",
-          "score": 59114
+          "latencyMs": 1563,
+          "verifiedAt": "2026-08-19T01:55:59.723Z",
+          "score": 62287
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:49.453Z",
+      "verifiedAt": "2026-08-19T01:55:59.723Z",
       "tags": "pop music",
       "language": "lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-zip-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-zip-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://zipfm.lt/wp-content/uploads/2023/11/cropped-zipfm-icon-180x180.png"
     },
@@ -482,9 +482,9 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBZIjKEArhw-bmwC-PK-bw",
+        "url": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBfEpnoAkHNAyNqRAXLKCg",
         "codec": "AAC",
-        "bitrate": 88,
+        "bitrate": 89,
         "sampling": 24000,
         "bitDepth": 0,
         "hls": 0,
@@ -492,34 +492,34 @@
         "official": false,
         "source": "curated",
         "identityConfidence": 100,
-        "finalUrl": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBZIjKEArhw-bmwC-PK-bw",
+        "finalUrl": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBfEpnoAkHNAyNqRAXLKCg",
         "icyName": "PWR-MAIN",
-        "latencyMs": 4366,
-        "verifiedAt": "2026-08-18T19:00:52.602Z",
-        "score": 70027
+        "latencyMs": 4438,
+        "verifiedAt": "2026-08-19T01:56:03.007Z",
+        "score": 70112
       },
       "fallbacks": [
         {
-          "url": "https://n04-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBZIoREA3s1Rjcc-0eiexg",
+          "url": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBfEufkAd9ee0JgkQIPMVA",
           "source": "iprd",
           "identityConfidence": 94,
-          "finalUrl": "https://n04-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBZIoREA3s1Rjcc-0eiexg",
+          "finalUrl": "https://n06-us.rcs.revma.com/f31w7e0fveuvv?rj-ttl=5&rj-tok=AAABoBfEufkAd9ee0JgkQIPMVA",
           "codec": "AAC",
-          "bitrate": 90,
+          "bitrate": 89,
           "sampling": 24000,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "PWR-MAIN",
-          "latencyMs": 5368,
-          "verifiedAt": "2026-08-18T19:00:57.970Z",
-          "score": 68546
+          "latencyMs": 4608,
+          "verifiedAt": "2026-08-19T01:56:07.616Z",
+          "score": 68598
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:00:57.970Z",
+      "verifiedAt": "2026-08-19T01:56:07.616Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-power-hit-radio.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-power-hit-radio.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.powerhitradio.lt/pimg/Site/powerhitradio.ico"
     },
@@ -539,7 +539,7 @@
       "best": {
         "url": "https://stream1.relaxfm.lt/relaxfm128.mp3",
         "codec": "MP3",
-        "bitrate": 112,
+        "bitrate": 128,
         "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
@@ -549,16 +549,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream1.relaxfm.lt/relaxfm128.mp3",
         "icyName": "RELAX FM",
-        "latencyMs": 1333,
-        "verifiedAt": "2026-08-18T19:00:51.038Z",
-        "score": 64533
+        "latencyMs": 1783,
+        "verifiedAt": "2026-08-19T01:55:59.099Z",
+        "score": 66043
       },
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:00:51.038Z",
+      "verifiedAt": "2026-08-19T01:55:59.100Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-relax-fm.webp?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-relax-fm.webp?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://relaxfm.lt/wp-content/uploads/2026/06/cropped-favicon-relax-fm-180x180.webp"
     },
@@ -576,7 +576,7 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://stream1.rockfm.lt/crf128.mp3",
+        "url": "https://stream2.rockfm.lt/crf128.mp3",
         "codec": "MP3",
         "bitrate": 128,
         "sampling": 48000,
@@ -586,17 +586,17 @@
         "official": true,
         "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "https://stream1.rockfm.lt/crf128.mp3",
+        "finalUrl": "https://stream2.rockfm.lt/crf128.mp3",
         "icyName": "ROCK FM",
-        "latencyMs": 1694,
-        "verifiedAt": "2026-08-18T19:00:48.700Z",
-        "score": 66061
+        "latencyMs": 1350,
+        "verifiedAt": "2026-08-19T01:55:59.980Z",
+        "score": 66130
       },
       "fallbacks": [
         {
-          "url": "https://stream2.rockfm.lt/crf128.mp3",
+          "url": "https://stream1.rockfm.lt/crf128.mp3",
           "codec": "MP3",
-          "bitrate": 32,
+          "bitrate": 128,
           "sampling": 48000,
           "bitDepth": 0,
           "hls": 0,
@@ -604,15 +604,15 @@
           "official": true,
           "source": "official",
           "identityConfidence": 100,
-          "finalUrl": "https://stream2.rockfm.lt/crf128.mp3",
+          "finalUrl": "https://stream1.rockfm.lt/crf128.mp3",
           "icyName": "ROCK FM",
-          "latencyMs": 1411,
-          "verifiedAt": "2026-08-18T19:00:50.111Z",
-          "score": 56518
+          "latencyMs": 1640,
+          "verifiedAt": "2026-08-19T01:55:58.629Z",
+          "score": 66072
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:50.112Z",
+      "verifiedAt": "2026-08-19T01:55:59.980Z",
       "tags": "metal,punk,rock",
       "language": "lithuanian",
       "logoUrl": "",
@@ -634,7 +634,7 @@
       "best": {
         "url": "https://stream.goldfm.lt/goldfm.aac",
         "codec": "AAC",
-        "bitrate": 192,
+        "bitrate": 200,
         "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
@@ -644,15 +644,15 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.goldfm.lt/goldfm.aac",
         "icyName": "GoldFM",
-        "latencyMs": 1790,
-        "verifiedAt": "2026-08-18T19:00:57.703Z",
-        "score": 82442
+        "latencyMs": 1712,
+        "verifiedAt": "2026-08-19T01:56:05.594Z",
+        "score": 83258
       },
       "fallbacks": [
         {
           "url": "http://stream.goldfm.lt/goldfm.aac",
           "codec": "AAC",
-          "bitrate": 190,
+          "bitrate": 194,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -661,9 +661,9 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "GoldFM",
-          "latencyMs": 2315,
-          "verifiedAt": "2026-08-18T19:00:51.905Z",
-          "score": 78337
+          "latencyMs": 2310,
+          "verifiedAt": "2026-08-19T01:56:00.466Z",
+          "score": 78738
         },
         {
           "url": "https://stream.goldfm.lt/goldfm.mp3",
@@ -677,18 +677,17 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "GoldFM",
-          "latencyMs": 2334,
-          "verifiedAt": "2026-08-18T19:00:55.913Z",
-          "score": 68533
+          "latencyMs": 2023,
+          "verifiedAt": "2026-08-19T01:56:03.882Z",
+          "score": 68595
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:03.203Z",
+      "verifiedAt": "2026-08-19T01:56:11.096Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-gold-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
-      "logoSource": "provider-cache",
-      "originalLogoUrl": "https://goldfm.lt/wp-content/uploads/2020/12/Gold_pilnas-300x136.png"
+      "logoUrl": "",
+      "logoSource": ""
     },
     {
       "id": "lt-ziniu-radijas",
@@ -704,23 +703,40 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://netradio.ziniur.lt:8000/ziniur.mp3",
+        "url": "https://netradio.ziniur.lt/ziniur.mp3",
         "codec": "MP3",
-        "bitrate": 320,
-        "sampling": 44100,
+        "bitrate": 448,
+        "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
         "trusted": true,
-        "official": false,
-        "source": "curated",
+        "official": true,
+        "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "http://netradio.ziniur.lt:8000/ziniur.mp3",
+        "finalUrl": "https://netradio.ziniur.lt/ziniur.mp3",
         "icyName": "This is my server name",
-        "latencyMs": 1694,
-        "verifiedAt": "2026-08-18T19:00:51.436Z",
-        "score": 83761
+        "latencyMs": 1508,
+        "verifiedAt": "2026-08-19T01:56:06.702Z",
+        "score": 98098
       },
       "fallbacks": [
+        {
+          "url": "http://netradio.ziniur.lt:8000/ziniur.mp3",
+          "codec": "MP3",
+          "bitrate": 320,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": false,
+          "source": "curated",
+          "identityConfidence": 100,
+          "finalUrl": "http://netradio.ziniur.lt:8000/ziniur.mp3",
+          "icyName": "This is my server name",
+          "latencyMs": 1389,
+          "verifiedAt": "2026-08-19T01:55:59.988Z",
+          "score": 83822
+        },
         {
           "url": "http://netradio.ziniur.lt/ziniur_64.mp3",
           "codec": "MP3",
@@ -734,33 +750,16 @@
           "identityConfidence": 100,
           "finalUrl": "http://netradio.ziniur.lt/ziniur_64.mp3",
           "icyName": "This is my server name",
-          "latencyMs": 5313,
-          "verifiedAt": "2026-08-18T19:00:56.750Z",
-          "score": 58937
-        },
-        {
-          "url": "https://netradio.ziniur.lt/ziniur.mp3",
-          "codec": "MP3",
-          "bitrate": 40,
-          "sampling": 11025,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://netradio.ziniur.lt/ziniur.mp3",
-          "icyName": "This is my server name",
-          "latencyMs": 1861,
-          "verifiedAt": "2026-08-18T19:00:58.611Z",
-          "score": 57228
+          "latencyMs": 5205,
+          "verifiedAt": "2026-08-19T01:56:05.194Z",
+          "score": 58959
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:00:58.611Z",
+      "verifiedAt": "2026-08-19T01:56:06.703Z",
       "tags": "lietuvos zinios,lithuanian news radio,zinios,zinios is lietuvos,ziniu radijas,ziniu radijas lietuva,ziniu radijas vilnius",
       "language": "lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-ziniu-radijas.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-ziniu-radijas.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.ziniuradijas.lt/favicon/mstile-70x70.png"
     },
@@ -780,8 +779,8 @@
       "best": {
         "url": "http://212.95.45.82:8000/stream",
         "codec": "MP3",
-        "bitrate": 384,
-        "sampling": 48000,
+        "bitrate": 96,
+        "sampling": 32000,
         "bitDepth": 0,
         "hls": 0,
         "trusted": true,
@@ -790,18 +789,18 @@
         "identityConfidence": 100,
         "finalUrl": "http://212.95.45.82:8000/stream",
         "icyName": "Pukas",
-        "latencyMs": 923,
-        "verifiedAt": "2026-08-18T19:00:51.808Z",
-        "score": 90315
+        "latencyMs": 607,
+        "verifiedAt": "2026-08-19T01:56:00.235Z",
+        "score": 61579
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:02.810Z",
+      "verifiedAt": "2026-08-19T01:56:11.235Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-pukas.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-pukas.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
-      "originalLogoUrl": "https://pukas.lt/wp-includes/images/w-logo-blue-white-bg.png"
+      "originalLogoUrl": "https://pukas.lt/wp-content/uploads/2026/01/Renovacijos-ekspertai.png"
     },
     {
       "id": "lt-pukas-2",
@@ -829,18 +828,18 @@
         "identityConfidence": 100,
         "finalUrl": "http://212.95.39.164:8074/stream",
         "icyName": "Pukas2",
-        "latencyMs": 1088,
-        "verifiedAt": "2026-08-18T19:00:52.243Z",
-        "score": 63082
+        "latencyMs": 629,
+        "verifiedAt": "2026-08-19T01:56:00.712Z",
+        "score": 63174
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:03.243Z",
+      "verifiedAt": "2026-08-19T01:56:11.712Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-pukas-2.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-pukas-2.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
-      "originalLogoUrl": "https://pukas.lt/wp-includes/images/w-logo-blue-white-bg.png"
+      "originalLogoUrl": "https://pukas.lt/wp-content/uploads/2026/01/Renovacijos-ekspertai.png"
     },
     {
       "id": "lt-kelyje",
@@ -867,17 +866,18 @@
         "identityConfidence": 100,
         "finalUrl": "https://solid55.streamupsolutions.com/proxy/opcubjpd/stream",
         "icyName": "",
-        "latencyMs": 1531,
-        "verifiedAt": "2026-08-18T19:00:58.101Z",
-        "score": 70994
+        "latencyMs": 1081,
+        "verifiedAt": "2026-08-19T01:56:06.665Z",
+        "score": 71084
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:00:58.101Z",
+      "verifiedAt": "2026-08-19T01:56:06.665Z",
       "tags": "",
       "language": "",
-      "logoUrl": "",
-      "logoSource": ""
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-kelyje.jpg?v=2026-08-19T01%3A57%3A21.823Z",
+      "logoSource": "provider-cache",
+      "originalLogoUrl": "https://radijaskelyje.lt/wp-content/uploads/2025/06/cropped-logo-favicon-rad-180x180.jpg"
     },
     {
       "id": "lt-laluna",
@@ -904,9 +904,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://radio.m-1.fm/laluna/mp3",
         "icyName": "LALUNA",
-        "latencyMs": 2439,
-        "verifiedAt": "2026-08-18T19:00:57.664Z",
-        "score": 67612
+        "latencyMs": 2074,
+        "verifiedAt": "2026-08-19T01:56:05.113Z",
+        "score": 67685
       },
       "fallbacks": [
         {
@@ -922,9 +922,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://radio.m-1.fm/laluna/mp3",
           "icyName": "LALUNA",
-          "latencyMs": 2783,
-          "verifiedAt": "2026-08-18T19:00:54.281Z",
-          "score": 67543
+          "latencyMs": 2471,
+          "verifiedAt": "2026-08-19T01:56:02.911Z",
+          "score": 67606
         },
         {
           "url": "http://radio.m-1.fm/laluna/mp3",
@@ -937,9 +937,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "LALUNA",
-          "latencyMs": 2148,
-          "verifiedAt": "2026-08-18T19:01:04.766Z",
-          "score": 66370
+          "latencyMs": 2061,
+          "verifiedAt": "2026-08-19T01:56:12.116Z",
+          "score": 66388
         },
         {
           "url": "http://radio.m-1.fm/laluna/high",
@@ -947,23 +947,22 @@
           "identityConfidence": 100,
           "finalUrl": "http://radio.m-1.fm/laluna/high",
           "codec": "AAC",
-          "bitrate": 63,
+          "bitrate": 65,
           "sampling": 22050,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "LALUNA",
-          "latencyMs": 4954,
-          "verifiedAt": "2026-08-18T19:01:02.618Z",
-          "score": 66109
+          "latencyMs": 4942,
+          "verifiedAt": "2026-08-19T01:56:10.055Z",
+          "score": 66312
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:04.766Z",
+      "verifiedAt": "2026-08-19T01:56:12.116Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-laluna.png?v=2026-08-18T19%3A02%3A16.972Z",
-      "logoSource": "provider-cache",
-      "originalLogoUrl": "https://laluna.15min.lt/wp-content/uploads/2023/10/cropped-Laluna_logo_30_transparent-32x32.png"
+      "logoUrl": "",
+      "logoSource": ""
     },
     {
       "id": "lt-ehr",
@@ -991,16 +990,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.ehr.lt:8443/ehr",
         "icyName": "European Hit Radio",
-        "latencyMs": 2489,
-        "verifiedAt": "2026-08-18T19:00:59.299Z",
-        "score": 72302
+        "latencyMs": 2255,
+        "verifiedAt": "2026-08-19T01:56:09.136Z",
+        "score": 72349
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:10.299Z",
+      "verifiedAt": "2026-08-19T01:56:20.136Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-ehr.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-ehr.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://europeanhitradio.lt/favicon.ico"
     },
@@ -1018,7 +1017,7 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://n04-us.rcs.revma.com/8cwskd80zxcwv?rj-ttl=5&rj-tok=AAABoBZIuwAABJmJ51GBqHKbPg",
+        "url": "https://n10-us.rcs.revma.com/8cwskd80zxcwv?rj-ttl=5&rj-tok=AAABoBfEzQwAl7FOVIuABQHUKg",
         "codec": "MP3",
         "bitrate": 192,
         "sampling": 44100,
@@ -1028,18 +1027,18 @@
         "official": false,
         "source": "curated",
         "identityConfidence": 100,
-        "finalUrl": "https://n04-us.rcs.revma.com/8cwskd80zxcwv?rj-ttl=5&rj-tok=AAABoBZIuwAABJmJ51GBqHKbPg",
+        "finalUrl": "https://n10-us.rcs.revma.com/8cwskd80zxcwv?rj-ttl=5&rj-tok=AAABoBfEzQwAl7FOVIuABQHUKg",
         "icyName": "RADIO3",
-        "latencyMs": 557,
-        "verifiedAt": "2026-08-18T19:01:00.631Z",
-        "score": 71189
+        "latencyMs": 741,
+        "verifiedAt": "2026-08-19T01:56:09.264Z",
+        "score": 71152
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:00.631Z",
+      "verifiedAt": "2026-08-19T01:56:09.265Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-extra-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-extra-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radio3.tv3.lt/apple-icon-180x180.png"
     },
@@ -1058,7 +1057,7 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 0,
-      "verifiedAt": "2026-08-18T19:00:59.141Z",
+      "verifiedAt": "2026-08-19T01:56:07.667Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -1089,9 +1088,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://eteris.startfm.lt/startfm.mp3",
         "icyName": "StartFM",
-        "latencyMs": 1312,
-        "verifiedAt": "2026-08-18T19:01:02.434Z",
-        "score": 85338
+        "latencyMs": 990,
+        "verifiedAt": "2026-08-19T01:56:09.648Z",
+        "score": 85402
       },
       "fallbacks": [
         {
@@ -1107,16 +1106,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://eteris.startfm.lt/startfm.mp3",
           "icyName": "StartFM",
-          "latencyMs": 1779,
-          "verifiedAt": "2026-08-18T19:01:01.122Z",
-          "score": 85244
+          "latencyMs": 1170,
+          "verifiedAt": "2026-08-19T01:56:08.658Z",
+          "score": 85366
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:02.434Z",
+      "verifiedAt": "2026-08-19T01:56:09.649Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-start-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-start-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://startfm.lt/apple-touch-icon.png"
     },
@@ -1146,18 +1145,17 @@
         "identityConfidence": 100,
         "finalUrl": "https://radio.topfm.lt/listen/topfm/topfm-320",
         "icyName": "TOPFM",
-        "latencyMs": 2199,
-        "verifiedAt": "2026-08-18T19:01:01.262Z",
-        "score": 85160
+        "latencyMs": 1960,
+        "verifiedAt": "2026-08-19T01:56:09.361Z",
+        "score": 85208
       },
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:01.262Z",
+      "verifiedAt": "2026-08-19T01:56:09.361Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-top-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
-      "logoSource": "provider-cache",
-      "originalLogoUrl": "https://topfm.lt/img/tamsus.png"
+      "logoUrl": "",
+      "logoSource": ""
     },
     {
       "id": "lt-easy-fm",
@@ -1184,16 +1182,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://netradio.ziniur.lt/easyfm.mp3",
         "icyName": "Easy FM",
-        "latencyMs": 1343,
-        "verifiedAt": "2026-08-18T19:01:00.619Z",
-        "score": 77431
+        "latencyMs": 1361,
+        "verifiedAt": "2026-08-19T01:56:09.180Z",
+        "score": 77428
       },
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:00.620Z",
+      "verifiedAt": "2026-08-19T01:56:09.181Z",
       "tags": "classic rock,jazz,lounge,smooth jazz",
       "language": "english,lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-easy-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-easy-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://easyfm.lt/apple-touch-icon.png"
     },
@@ -1212,7 +1210,7 @@
       "best": {
         "url": "http://stream.goldfm.lt/gerasfm.aac",
         "codec": "AAC",
-        "bitrate": 197,
+        "bitrate": 196,
         "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
@@ -1222,18 +1220,17 @@
         "identityConfidence": 100,
         "finalUrl": "http://stream.goldfm.lt/gerasfm.aac",
         "icyName": "GerasFM",
-        "latencyMs": 2666,
-        "verifiedAt": "2026-08-18T19:01:02.021Z",
-        "score": 81267
+        "latencyMs": 2058,
+        "verifiedAt": "2026-08-19T01:56:09.925Z",
+        "score": 81288
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:07.522Z",
+      "verifiedAt": "2026-08-19T01:56:15.425Z",
       "tags": "",
       "language": "lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-geras-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
-      "logoSource": "provider-cache",
-      "originalLogoUrl": "https://www.gerasfm.lt/wp-content/uploads/2018/07/cropped-gerasfm-192x192.png"
+      "logoUrl": "",
+      "logoSource": ""
     },
     {
       "id": "lt-fm99",
@@ -1250,10 +1247,10 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:06.560Z",
+      "verifiedAt": "2026-08-19T01:56:15.051Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-fm99.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-fm99.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://fm99.ams3.digitaloceanspaces.com/wp-content/uploads/2021/09/cropped-MicrosoftTeams-image-2-180x180.png"
     },
@@ -1273,7 +1270,7 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 0,
-      "verifiedAt": "2026-08-18T19:01:01.300Z",
+      "verifiedAt": "2026-08-19T01:56:09.798Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -1295,12 +1292,11 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:12.540Z",
+      "verifiedAt": "2026-08-19T01:56:20.586Z",
       "tags": "všį šou imperija",
       "language": "lithuanian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/lt-taurages-radijas.png?v=2026-08-18T19%3A02%3A16.972Z",
-      "logoSource": "provider-cache",
-      "originalLogoUrl": "https://www.tauragesradijas.lt/images/120x120.png"
+      "logoUrl": "",
+      "logoSource": ""
     },
     {
       "id": "it-rtl-1025",
@@ -1327,9 +1323,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://streamingv2.shoutcast.com/rtl-1025",
         "icyName": "RTL 102.5",
-        "latencyMs": 1783,
-        "verifiedAt": "2026-08-18T19:01:05.593Z",
-        "score": 83743
+        "latencyMs": 1676,
+        "verifiedAt": "2026-08-19T01:56:12.710Z",
+        "score": 83765
       },
       "fallbacks": [
         {
@@ -1343,29 +1339,29 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "RTL 102.5",
-          "latencyMs": 1137,
-          "verifiedAt": "2026-08-18T19:01:06.882Z",
-          "score": 82573
+          "latencyMs": 1155,
+          "verifiedAt": "2026-08-19T01:56:14.308Z",
+          "score": 82569
         },
         {
-          "url": "https://streamcdnp6-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/chunklist_b192000.m3u8",
+          "url": "https://streamcdng20-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/chunklist_b192000.m3u8",
           "codec": "AAC",
           "bitrate": 192,
           "hls": 1,
           "source": "radio-browser",
           "identityConfidence": 92,
           "stationuuid": "675bd925-8b13-43fe-a1b9-43bb0f90fbbd",
-          "finalUrl": "https://streamcdnp6-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/chunklist_b192000.m3u8",
-          "latencyMs": 1170,
-          "verifiedAt": "2026-08-18T19:01:03.810Z",
-          "score": 77926
+          "finalUrl": "https://streamcdng20-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/chunklist_b192000.m3u8",
+          "latencyMs": 734,
+          "verifiedAt": "2026-08-19T01:56:11.034Z",
+          "score": 78013
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:07.142Z",
+      "verifiedAt": "2026-08-19T01:56:14.359Z",
       "tags": "local,news,varied",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rtl-1025.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rtl-1025.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://cloud.rtl.it/assets/www.rtl.it/3.0.64/img/logo/favicon-96x96.png"
     },
@@ -1394,16 +1390,16 @@
         "source": "official",
         "identityConfidence": 100,
         "finalUrl": "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/stream01/streamPlaylist.m3u8",
-        "latencyMs": 597,
-        "verifiedAt": "2026-08-18T19:01:03.299Z",
-        "score": 72781
+        "latencyMs": 418,
+        "verifiedAt": "2026-08-19T01:56:10.730Z",
+        "score": 72816
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:03.493Z",
+      "verifiedAt": "2026-08-19T01:56:10.757Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-italia.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-italia.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radioitalia.it/images/logo-radioitalia-200.png"
     },
@@ -1433,9 +1429,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://icstream.rds.radio/rds",
         "icyName": "RDS_L2",
-        "latencyMs": 1746,
-        "verifiedAt": "2026-08-18T19:01:04.815Z",
-        "score": 77351
+        "latencyMs": 1676,
+        "verifiedAt": "2026-08-19T01:56:12.694Z",
+        "score": 77365
       },
       "fallbacks": [
         {
@@ -1447,16 +1443,16 @@
           "identityConfidence": 92,
           "stationuuid": "babc9612-cab4-4bfd-a455-14a612f7c8d6",
           "finalUrl": "https://stream.rds.radio/audio/rds.stream_aac/chunklist.m3u8",
-          "latencyMs": 207,
-          "verifiedAt": "2026-08-18T19:01:10.523Z",
-          "score": 23919
+          "latencyMs": 681,
+          "verifiedAt": "2026-08-19T01:56:18.876Z",
+          "score": 23824
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:10.523Z",
+      "verifiedAt": "2026-08-19T01:56:18.876Z",
       "tags": "",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rds.svg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rds.svg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://media.rds.it/web/web-site-brandnew/svg/logo-rds.svg"
     },
@@ -1482,23 +1478,23 @@
         "identityConfidence": 92,
         "stationuuid": "999ff951-68eb-4f4a-bec9-ed972b99d258",
         "finalUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
-        "latencyMs": 1198,
-        "verifiedAt": "2026-08-18T19:01:04.639Z",
-        "score": 70920
+        "latencyMs": 739,
+        "verifiedAt": "2026-08-19T01:56:12.040Z",
+        "score": 71012
       },
       "fallbacks": [
         {
-          "url": "https://streamcdnp4-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
+          "url": "https://streamcdng4-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
           "codec": "",
           "bitrate": 0,
           "hls": 1,
           "source": "radio-browser",
           "identityConfidence": 92,
           "stationuuid": "05651513-e7a1-4ddc-a50d-4cfc6e06d311",
-          "finalUrl": "https://streamcdnp4-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
-          "latencyMs": 330,
-          "verifiedAt": "2026-08-18T19:01:06.527Z",
-          "score": 23894
+          "finalUrl": "https://streamcdng4-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
+          "latencyMs": 222,
+          "verifiedAt": "2026-08-19T01:56:13.771Z",
+          "score": 23916
         },
         {
           "url": "http://streamcdnb1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
@@ -1509,16 +1505,16 @@
           "identityConfidence": 92,
           "stationuuid": "63028c50-508d-4759-863c-f8732e3a0418",
           "finalUrl": "http://streamcdnb1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
-          "latencyMs": 366,
-          "verifiedAt": "2026-08-18T19:01:06.197Z",
-          "score": 23887
+          "latencyMs": 253,
+          "verifiedAt": "2026-08-19T01:56:13.548Z",
+          "score": 23909
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:06.527Z",
+      "verifiedAt": "2026-08-19T01:56:13.771Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-deejay.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-deejay.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.deejay.it/wp-content/themes/network-deejay/favicon.ico"
     },
@@ -1548,9 +1544,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://icy.unitedradio.it/Radio105.aac",
         "icyName": "FM_105_aac_segrate",
-        "latencyMs": 1853,
-        "verifiedAt": "2026-08-18T19:01:07.172Z",
-        "score": 71229
+        "latencyMs": 1376,
+        "verifiedAt": "2026-08-19T01:56:14.741Z",
+        "score": 71325
       },
       "fallbacks": [
         {
@@ -1566,9 +1562,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://icecast.unitedradio.it/Radio105.mp3",
           "icyName": "FM_105_mp3_segrate",
-          "latencyMs": 2035,
-          "verifiedAt": "2026-08-18T19:01:09.207Z",
-          "score": 64493
+          "latencyMs": 1652,
+          "verifiedAt": "2026-08-19T01:56:16.394Z",
+          "score": 64570
         },
         {
           "url": "https://icecast.unitedradio.it/Radio105.mp3",
@@ -1582,16 +1578,16 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "FM_105_mp3_segrate",
-          "latencyMs": 1835,
-          "verifiedAt": "2026-08-18T19:01:05.319Z",
-          "score": 61993
+          "latencyMs": 1928,
+          "verifiedAt": "2026-08-19T01:56:13.365Z",
+          "score": 61974
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:09.207Z",
+      "verifiedAt": "2026-08-19T01:56:16.394Z",
       "tags": "",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-105.avif?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-105.avif?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cuMTA1Lm5ldC93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wMy9sb2dvX2NvbG9yZWQucG5n/-/0/0?r=7a2735470f07c50e2cbe26fd2470a4e8"
     },
@@ -1621,9 +1617,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://icecast.unitedradio.it/Virgin.mp3",
         "icyName": "FM_VRG_mp3_segrate",
-        "latencyMs": 2756,
-        "verifiedAt": "2026-08-18T19:01:08.666Z",
-        "score": 64349
+        "latencyMs": 1154,
+        "verifiedAt": "2026-08-19T01:56:15.467Z",
+        "score": 64669
       },
       "fallbacks": [
         {
@@ -1638,16 +1634,16 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "FM_VRG_mp3_segrate",
-          "latencyMs": 2154,
-          "verifiedAt": "2026-08-18T19:01:05.910Z",
-          "score": 61929
+          "latencyMs": 2376,
+          "verifiedAt": "2026-08-19T01:56:14.313Z",
+          "score": 61885
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:08.667Z",
+      "verifiedAt": "2026-08-19T01:56:15.467Z",
       "tags": "alternative rock,classic rock,indie rock,pop rock,punk rock,rock,soft rock",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-virgin-radio.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-virgin-radio.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.virginradio.it/wp-content/themes/virgin-radio-theme/public/images/VRG-symbol-footer.066739.png"
     },
@@ -1676,9 +1672,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://kisskiss.fluidstream.eu/KissKiss.mp3",
         "icyName": "Radio Kiss Kiss",
-        "latencyMs": 1172,
-        "verifiedAt": "2026-08-18T19:01:09.048Z",
-        "score": 64666
+        "latencyMs": 559,
+        "verifiedAt": "2026-08-19T01:56:16.110Z",
+        "score": 64788
       },
       "fallbacks": [
         {
@@ -1692,9 +1688,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Kiss Kiss",
-          "latencyMs": 1029,
-          "verifiedAt": "2026-08-18T19:01:10.077Z",
-          "score": 63394
+          "latencyMs": 823,
+          "verifiedAt": "2026-08-19T01:56:16.933Z",
+          "score": 63435
         },
         {
           "url": "https://kisskiss.fluidstream.eu/KissKiss.mp3",
@@ -1708,9 +1704,9 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "Radio Kiss Kiss",
-          "latencyMs": 745,
-          "verifiedAt": "2026-08-18T19:01:07.876Z",
-          "score": 62451
+          "latencyMs": 1167,
+          "verifiedAt": "2026-08-19T01:56:15.551Z",
+          "score": 62367
         },
         {
           "url": "https://kisskiss.fluidstream.eu/KissKiss.mp3",
@@ -1724,16 +1720,16 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "Radio Kiss Kiss",
-          "latencyMs": 1735,
-          "verifiedAt": "2026-08-18T19:01:06.759Z",
-          "score": 62253
+          "latencyMs": 1809,
+          "verifiedAt": "2026-08-19T01:56:14.109Z",
+          "score": 62238
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:10.078Z",
+      "verifiedAt": "2026-08-19T01:56:16.933Z",
       "tags": "adult contemporary,pop",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-kiss-kiss.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-kiss-kiss.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://kisskiss.it/wp-content/uploads/2022/07/cropped-favicon-new-kisskiss-180x180.png"
     },
@@ -1762,16 +1758,16 @@
         "sampling": 48000,
         "bitDepth": 0,
         "icyName": "FM_RMC_mp3_segrate",
-        "latencyMs": 1673,
-        "verifiedAt": "2026-08-18T19:01:09.096Z",
-        "score": 62025
+        "latencyMs": 1440,
+        "verifiedAt": "2026-08-19T01:56:15.984Z",
+        "score": 62072
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:09.096Z",
+      "verifiedAt": "2026-08-19T01:56:15.985Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-monte-carlo.avif?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-monte-carlo.avif?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cucmFkaW9tb250ZWNhcmxvLm5ldC93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wNS9jcm9wcGVkLWZhdmljb25fMS0xLnBuZw/-/0/0?r=073a79d0fa661589553336655a8ac844"
     },
@@ -1789,37 +1785,37 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
+        "url": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast",
         "codec": "MP3",
         "bitrate": 256,
         "hls": 0,
         "source": "radio-browser",
         "identityConfidence": 92,
-        "stationuuid": "7bd0a378-7d60-4363-8699-764af50f30c7",
-        "finalUrl": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
+        "stationuuid": "22c8a12c-6d82-4b8d-874f-74074e9ec011",
+        "finalUrl": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast",
         "sampling": 44100,
         "bitDepth": 0,
-        "icyName": "Radio1 Estero",
-        "latencyMs": 150,
-        "verifiedAt": "2026-08-18T19:01:09.449Z",
-        "score": 75130
+        "icyName": "Radio1",
+        "latencyMs": 113,
+        "verifiedAt": "2026-08-19T01:56:15.882Z",
+        "score": 75137
       },
       "fallbacks": [
         {
-          "url": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast",
+          "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
           "codec": "MP3",
           "bitrate": 256,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 92,
-          "stationuuid": "22c8a12c-6d82-4b8d-874f-74074e9ec011",
-          "finalUrl": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast",
+          "stationuuid": "7bd0a378-7d60-4363-8699-764af50f30c7",
+          "finalUrl": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
           "sampling": 44100,
           "bitDepth": 0,
-          "icyName": "Radio1",
-          "latencyMs": 320,
-          "verifiedAt": "2026-08-18T19:01:09.769Z",
-          "score": 75096
+          "icyName": "Radio1 Estero",
+          "latencyMs": 141,
+          "verifiedAt": "2026-08-19T01:56:15.769Z",
+          "score": 75132
         },
         {
           "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
@@ -1833,16 +1829,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio1 Estero",
-          "latencyMs": 2501,
-          "verifiedAt": "2026-08-18T19:01:09.299Z",
-          "score": 74660
+          "latencyMs": 1022,
+          "verifiedAt": "2026-08-19T01:56:15.627Z",
+          "score": 74956
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:09.769Z",
+      "verifiedAt": "2026-08-19T01:56:15.882Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-1.webp?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-1.webp?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.raiplaysound.it/assets/img/icons/apple/apple-touch-icon.png"
     },
@@ -1872,9 +1868,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast",
         "icyName": "Radio2",
-        "latencyMs": 765,
-        "verifiedAt": "2026-08-18T19:01:08.151Z",
-        "score": 77547
+        "latencyMs": 278,
+        "verifiedAt": "2026-08-19T01:56:15.577Z",
+        "score": 77644
       },
       "fallbacks": [
         {
@@ -1888,9 +1884,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio2",
-          "latencyMs": 1480,
-          "verifiedAt": "2026-08-18T19:01:11.085Z",
-          "score": 75924
+          "latencyMs": 807,
+          "verifiedAt": "2026-08-19T01:56:16.629Z",
+          "score": 76059
         },
         {
           "url": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast",
@@ -1904,9 +1900,9 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio2",
-          "latencyMs": 321,
-          "verifiedAt": "2026-08-18T19:01:09.604Z",
-          "score": 75096
+          "latencyMs": 97,
+          "verifiedAt": "2026-08-19T01:56:15.822Z",
+          "score": 75141
         },
         {
           "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast",
@@ -1920,16 +1916,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio2",
-          "latencyMs": 1132,
-          "verifiedAt": "2026-08-18T19:01:09.283Z",
-          "score": 74934
+          "latencyMs": 147,
+          "verifiedAt": "2026-08-19T01:56:15.725Z",
+          "score": 75131
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:11.085Z",
+      "verifiedAt": "2026-08-19T01:56:16.629Z",
       "tags": "",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-2.webp?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-2.webp?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.raiplaysound.it/assets/img/icons/apple/apple-touch-icon.png"
     },
@@ -1959,9 +1955,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S56630579/yEbkcBtIoSwd/icecast",
         "icyName": "Radio3",
-        "latencyMs": 329,
-        "verifiedAt": "2026-08-18T19:01:08.129Z",
-        "score": 84034
+        "latencyMs": 258,
+        "verifiedAt": "2026-08-19T01:56:15.958Z",
+        "score": 84048
       },
       "fallbacks": [
         {
@@ -1976,16 +1972,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio3",
-          "latencyMs": 483,
-          "verifiedAt": "2026-08-18T19:01:08.612Z",
-          "score": 81463
+          "latencyMs": 205,
+          "verifiedAt": "2026-08-19T01:56:16.163Z",
+          "score": 81519
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:08.612Z",
+      "verifiedAt": "2026-08-19T01:56:16.163Z",
       "tags": "classical,culture,public radio,rai",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-3.webp?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-rai-radio-3.webp?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.raiplaysound.it/assets/img/icons/apple/apple-touch-icon.png"
     },
@@ -2011,9 +2007,9 @@
         "identityConfidence": 92,
         "stationuuid": "484e2020-8858-4509-aa1a-cc156f0c4d2f",
         "finalUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8",
-        "latencyMs": 780,
-        "verifiedAt": "2026-08-18T19:01:09.676Z",
-        "score": 71004
+        "latencyMs": 467,
+        "verifiedAt": "2026-08-19T01:56:16.353Z",
+        "score": 71067
       },
       "fallbacks": [
         {
@@ -2028,16 +2024,16 @@
           "source": "curated",
           "identityConfidence": 100,
           "finalUrl": "https://streamcdnb3-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8",
-          "latencyMs": 495,
-          "verifiedAt": "2026-08-18T19:01:10.172Z",
-          "score": 61401
+          "latencyMs": 376,
+          "verifiedAt": "2026-08-19T01:56:16.729Z",
+          "score": 61425
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:10.960Z",
+      "verifiedAt": "2026-08-19T01:56:17.033Z",
       "tags": "commercial,dance,italian",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-m2o.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-m2o.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://cdn.gelestatic.it/m2o/sites/2/2022/01/cropped-M2O-LOGO-JPG-180x180.jpg"
     },
@@ -2063,16 +2059,16 @@
         "identityConfidence": 92,
         "stationuuid": "fbe60456-15e8-4db4-a1f1-4ce77b7aaecc",
         "finalUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiocapital/radiocapital/play1.m3u8",
-        "latencyMs": 1043,
-        "verifiedAt": "2026-08-18T19:01:09.989Z",
-        "score": 70951
+        "latencyMs": 479,
+        "verifiedAt": "2026-08-19T01:56:16.581Z",
+        "score": 71064
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:10.506Z",
+      "verifiedAt": "2026-08-19T01:56:17.139Z",
       "tags": "classic hits,talk",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-capital.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-capital.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.capital.it/wp-content/themes/network-capital/favicon.ico"
     },
@@ -2091,7 +2087,7 @@
       "best": {
         "url": "http://shoutcast.radio24.it:8000/;",
         "codec": "AAC",
-        "bitrate": 46,
+        "bitrate": 48,
         "sampling": 32000,
         "bitDepth": 0,
         "hls": 0,
@@ -2101,9 +2097,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://shoutcast.radio24.it:8000/;",
         "icyName": "radio24",
-        "latencyMs": 1646,
-        "verifiedAt": "2026-08-18T19:01:12.494Z",
-        "score": 66371
+        "latencyMs": 1160,
+        "verifiedAt": "2026-08-19T01:56:18.304Z",
+        "score": 66668
       },
       "fallbacks": [
         {
@@ -2119,9 +2115,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://shoutcast2.radio24.it:8000/;stream/1",
           "icyName": "radio24",
-          "latencyMs": 1157,
-          "verifiedAt": "2026-08-18T19:01:13.652Z",
-          "score": 58269
+          "latencyMs": 1261,
+          "verifiedAt": "2026-08-19T01:56:19.565Z",
+          "score": 58248
         },
         {
           "url": "http://shoutcast2.radio24.it:8000/;",
@@ -2134,16 +2130,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "radio24",
-          "latencyMs": 809,
-          "verifiedAt": "2026-08-18T19:01:15.839Z",
-          "score": 57038
+          "latencyMs": 762,
+          "verifiedAt": "2026-08-19T01:56:21.165Z",
+          "score": 57048
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:15.839Z",
+      "verifiedAt": "2026-08-19T01:56:21.165Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-24.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-24.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radio24.ilsole24ore.com/whitelabel/group-2420101401040528/img/favicon.png"
     },
@@ -2172,9 +2168,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://streamingv2.shoutcast.com/radiofreccia",
         "icyName": "RadioFreccia",
-        "latencyMs": 2088,
-        "verifiedAt": "2026-08-18T19:01:12.537Z",
-        "score": 83682
+        "latencyMs": 1247,
+        "verifiedAt": "2026-08-19T01:56:18.325Z",
+        "score": 83851
       },
       "fallbacks": [
         {
@@ -2188,29 +2184,29 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "RadioFreccia",
-          "latencyMs": 1588,
-          "verifiedAt": "2026-08-18T19:01:14.125Z",
-          "score": 82482
+          "latencyMs": 1298,
+          "verifiedAt": "2026-08-19T01:56:19.624Z",
+          "score": 82540
         },
         {
-          "url": "https://streamcdng11-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/chunklist_b192000.m3u8",
+          "url": "https://streamcdnp1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/chunklist_b192000.m3u8",
           "codec": "AAC",
           "bitrate": 192,
           "hls": 1,
           "source": "radio-browser",
           "identityConfidence": 92,
           "stationuuid": "b25710a3-fb1b-4aa7-ba81-142ee6f5bea9",
-          "finalUrl": "https://streamcdng11-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/chunklist_b192000.m3u8",
-          "latencyMs": 1020,
-          "verifiedAt": "2026-08-18T19:01:10.449Z",
-          "score": 77956
+          "finalUrl": "https://streamcdnp1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/chunklist_b192000.m3u8",
+          "latencyMs": 730,
+          "verifiedAt": "2026-08-19T01:56:17.078Z",
+          "score": 78014
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:15.059Z",
+      "verifiedAt": "2026-08-19T01:56:19.678Z",
       "tags": "classic rock,oldies,rock",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-freccia.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-freccia.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://cloud.radiofreccia.it/assets/www.radiofreccia.it/1.0.43/img/logo/android-icon-192x192.png"
     },
@@ -2239,9 +2235,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://icy.unitedradio.it/Subasio.mp3",
         "icyName": "RADIO SUBASIO",
-        "latencyMs": 2493,
-        "verifiedAt": "2026-08-18T19:01:12.504Z",
-        "score": 64401
+        "latencyMs": 1027,
+        "verifiedAt": "2026-08-19T01:56:17.604Z",
+        "score": 64695
       },
       "fallbacks": [
         {
@@ -2255,9 +2251,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "",
-          "latencyMs": 1436,
-          "verifiedAt": "2026-08-18T19:01:16.777Z",
-          "score": 63133
+          "latencyMs": 1200,
+          "verifiedAt": "2026-08-19T01:56:20.525Z",
+          "score": 63180
         },
         {
           "url": "http://icy.unitedradio.it/Subasio.mp3",
@@ -2271,16 +2267,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "RADIO SUBASIO",
-          "latencyMs": 1876,
-          "verifiedAt": "2026-08-18T19:01:14.380Z",
-          "score": 62225
+          "latencyMs": 1395,
+          "verifiedAt": "2026-08-19T01:56:19.000Z",
+          "score": 62321
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:16.777Z",
+      "verifiedAt": "2026-08-19T01:56:20.525Z",
       "tags": "assisi,italy,mediaset",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-subasio.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-subasio.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiosubasio.it/wp-content/uploads/2020/07/placehoder-news.jpg"
     },
@@ -2309,9 +2305,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream6.xdevel.com/audio4s975355-395/stream/icecast.audio",
         "icyName": "Radio Bruno",
-        "latencyMs": 1415,
-        "verifiedAt": "2026-08-18T19:01:15.758Z",
-        "score": 71417
+        "latencyMs": 694,
+        "verifiedAt": "2026-08-19T01:56:20.077Z",
+        "score": 71561
       },
       "fallbacks": [
         {
@@ -2320,14 +2316,14 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream7.xdevel.com/audio4s975355-396/stream/icecast.audio",
           "codec": "AAC",
-          "bitrate": 95,
+          "bitrate": 97,
           "sampling": 22050,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Bruno",
-          "latencyMs": 1055,
-          "verifiedAt": "2026-08-18T19:01:16.813Z",
-          "score": 70089
+          "latencyMs": 776,
+          "verifiedAt": "2026-08-19T01:56:20.854Z",
+          "score": 70345
         },
         {
           "url": "https://stream3.xdevel.com/audio4s975355-393/stream/icecast.audio",
@@ -2341,14 +2337,14 @@
           "sampling": 22050,
           "bitDepth": 0,
           "icyName": "Radio Bruno",
-          "latencyMs": 1401,
-          "verifiedAt": "2026-08-18T19:01:14.342Z",
-          "score": 69120
+          "latencyMs": 1077,
+          "verifiedAt": "2026-08-19T01:56:19.383Z",
+          "score": 69185
         },
         {
           "url": "https://stream3.xdevel.com/audio4s975355-393/stream/icecast.audio",
           "codec": "AAC",
-          "bitrate": 97,
+          "bitrate": 96,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -2357,16 +2353,16 @@
           "sampling": 22050,
           "bitDepth": 0,
           "icyName": "Radio Bruno",
-          "latencyMs": 2575,
-          "verifiedAt": "2026-08-18T19:01:12.941Z",
-          "score": 68985
+          "latencyMs": 1494,
+          "verifiedAt": "2026-08-19T01:56:18.306Z",
+          "score": 69101
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:16.813Z",
+      "verifiedAt": "2026-08-19T01:56:20.854Z",
       "tags": "carpi,pop",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-bruno.webp?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-bruno.webp?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiobruno.it/wp-content/uploads/2023/10/logo-148-90-black1.png"
     },
@@ -2395,9 +2391,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream6.xdevel.com/audio0s975885-1010/stream/icecast.audio",
         "icyName": "Radionorba",
-        "latencyMs": 1242,
-        "verifiedAt": "2026-08-18T19:01:14.885Z",
-        "score": 71452
+        "latencyMs": 608,
+        "verifiedAt": "2026-08-19T01:56:20.138Z",
+        "score": 71578
       },
       "fallbacks": [
         {
@@ -2411,14 +2407,14 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radionorba",
-          "latencyMs": 1207,
-          "verifiedAt": "2026-08-18T19:01:16.092Z",
-          "score": 70159
+          "latencyMs": 949,
+          "verifiedAt": "2026-08-19T01:56:21.087Z",
+          "score": 70210
         },
         {
           "url": "https://ad2.xdevel.com/radionorba",
           "codec": "AAC",
-          "bitrate": 95,
+          "bitrate": 97,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -2427,16 +2423,16 @@
           "sampling": 22050,
           "bitDepth": 0,
           "icyName": "Radionorba",
-          "latencyMs": 3077,
-          "verifiedAt": "2026-08-18T19:01:13.644Z",
-          "score": 68685
+          "latencyMs": 2358,
+          "verifiedAt": "2026-08-19T01:56:19.530Z",
+          "score": 69028
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:16.092Z",
+      "verifiedAt": "2026-08-19T01:56:21.087Z",
       "tags": "",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-norba.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-norba.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radionorba.it/wp-content/uploads/2021/05/cropped-logo-radionorba-180x180.png"
     },
@@ -2465,9 +2461,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://ice10.fluidstream.net/anni60.mp3",
         "icyName": "Radio Italia Anni 60",
-        "latencyMs": 1235,
-        "verifiedAt": "2026-08-18T19:01:14.670Z",
-        "score": 64653
+        "latencyMs": 1509,
+        "verifiedAt": "2026-08-19T01:56:21.485Z",
+        "score": 64598
       },
       "fallbacks": [
         {
@@ -2483,9 +2479,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://str01.fluidstream.net/anni60.mp3",
           "icyName": "Radio Italia Anni 60",
-          "latencyMs": 1571,
-          "verifiedAt": "2026-08-18T19:01:16.241Z",
-          "score": 64586
+          "latencyMs": 4814,
+          "verifiedAt": "2026-08-19T01:56:26.299Z",
+          "score": 63937
         },
         {
           "url": "https://icy.unitedradio.it/um014.mp3",
@@ -2498,9 +2494,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "-UM014-ITALIA60",
-          "latencyMs": 1412,
-          "verifiedAt": "2026-08-18T19:01:17.653Z",
-          "score": 63138
+          "latencyMs": 2955,
+          "verifiedAt": "2026-08-19T01:56:29.254Z",
+          "score": 62829
         },
         {
           "url": "https://str01.fluidstream.net/anni60.mp3",
@@ -2514,17 +2510,18 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio Italia Anni 60",
-          "latencyMs": 1169,
-          "verifiedAt": "2026-08-18T19:01:13.434Z",
-          "score": 62366
+          "latencyMs": 1209,
+          "verifiedAt": "2026-08-19T01:56:19.976Z",
+          "score": 62358
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:17.653Z",
+      "verifiedAt": "2026-08-19T01:56:29.254Z",
       "tags": "",
       "language": "",
-      "logoUrl": "",
-      "logoSource": ""
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-italia-anni-60.png?v=2026-08-19T01%3A57%3A21.823Z",
+      "logoSource": "provider-cache",
+      "originalLogoUrl": "https://www.ria60.it/wp-content/uploads/2024/06/cropped-Logo-RIA60-1-1-180x180.png"
     },
     {
       "id": "it-radio-zeta",
@@ -2551,9 +2548,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://streamingv2.shoutcast.com/radio-zeta",
         "icyName": "RadioZETA",
-        "latencyMs": 2024,
-        "verifiedAt": "2026-08-18T19:01:16.161Z",
-        "score": 83695
+        "latencyMs": 4342,
+        "verifiedAt": "2026-08-19T01:56:25.194Z",
+        "score": 83232
       },
       "fallbacks": [
         {
@@ -2568,16 +2565,16 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "RadioZETA",
-          "latencyMs": 3319,
-          "verifiedAt": "2026-08-18T19:01:14.137Z",
-          "score": 68736
+          "latencyMs": 3508,
+          "verifiedAt": "2026-08-19T01:56:20.852Z",
+          "score": 68698
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:16.882Z",
+      "verifiedAt": "2026-08-19T01:56:25.351Z",
       "tags": "",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-zeta.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-zeta.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radiozeta.rtl.it/favicon-96x96.png"
     },
@@ -2606,15 +2603,15 @@
         "sampling": 22050,
         "bitDepth": 0,
         "icyName": "RADIO MARIA ITALIA",
-        "latencyMs": 2329,
-        "verifiedAt": "2026-08-18T19:01:13.795Z",
-        "score": 65634
+        "latencyMs": 1655,
+        "verifiedAt": "2026-08-19T01:56:20.953Z",
+        "score": 65769
       },
       "fallbacks": [
         {
           "url": "http://dreamsiteradiocp2.com:8016/stream",
           "codec": "AAC",
-          "bitrate": 62,
+          "bitrate": 64,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -2623,13 +2620,13 @@
           "sampling": 22050,
           "bitDepth": 0,
           "icyName": "RADIO MARIA ITALIA",
-          "latencyMs": 1996,
-          "verifiedAt": "2026-08-18T19:01:15.791Z",
-          "score": 65601
+          "latencyMs": 5027,
+          "verifiedAt": "2026-08-19T01:56:25.980Z",
+          "score": 65195
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:19.874Z",
+      "verifiedAt": "2026-08-19T01:56:30.326Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -2650,10 +2647,10 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:16.825Z",
+      "verifiedAt": "2026-08-19T01:56:25.423Z",
       "tags": "sport",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-sportiva.svg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-sportiva.svg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiosportiva.com/wp-content/uploads/2021/09/logo-radiosportiva-white.svg"
     },
@@ -2683,9 +2680,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://sr15.inmystream.it:8000/stream",
         "icyName": "LATTEMIELE",
-        "latencyMs": 3024,
-        "verifiedAt": "2026-08-18T19:01:15.783Z",
-        "score": 77095
+        "latencyMs": 5110,
+        "verifiedAt": "2026-08-19T01:56:25.471Z",
+        "score": 76678
       },
       "fallbacks": [
         {
@@ -2700,16 +2697,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "LATTEMIELE",
-          "latencyMs": 2176,
-          "verifiedAt": "2026-08-18T19:01:17.959Z",
-          "score": 74965
+          "latencyMs": 2794,
+          "verifiedAt": "2026-08-19T01:56:28.265Z",
+          "score": 74841
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:19.849Z",
+      "verifiedAt": "2026-08-19T01:56:29.338Z",
       "tags": "musica italiana",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-lattemiele.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-lattemiele.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.lattemiele.com/wp-content/uploads/2020/07/cropped-logo-autore-lm-32x32.png"
     },
@@ -2728,7 +2725,7 @@
       "best": {
         "url": "https://kisskiss.fluidstream.eu/ibiza.aac?FLID=6",
         "codec": "AAC",
-        "bitrate": 94,
+        "bitrate": 95,
         "sampling": 22050,
         "bitDepth": 0,
         "hls": 0,
@@ -2738,9 +2735,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://kisskiss.fluidstream.eu/ibiza.aac?FLID=6",
         "icyName": "Radio Ibiza",
-        "latencyMs": 1357,
-        "verifiedAt": "2026-08-18T19:01:18.525Z",
-        "score": 71229
+        "latencyMs": 2669,
+        "verifiedAt": "2026-08-19T01:56:28.699Z",
+        "score": 71066
       },
       "fallbacks": [
         {
@@ -2755,16 +2752,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio Ibiza",
-          "latencyMs": 1810,
-          "verifiedAt": "2026-08-18T19:01:17.168Z",
-          "score": 62238
+          "latencyMs": 5290,
+          "verifiedAt": "2026-08-19T01:56:26.030Z",
+          "score": 61542
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:18.525Z",
+      "verifiedAt": "2026-08-19T01:56:28.699Z",
       "tags": "dance,electronica,napoli",
       "language": "italian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-ibiza.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/it-radio-ibiza.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radioibiza.it/wp-content/uploads/2021/07/cropped-favicon-ibiza-180x180.png"
     },
@@ -2782,22 +2779,55 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://rusradio.hostingradio.ru/rusradio96.aacp",
+        "url": "https://rusradio.hostingradio.ru/rusradio96.aacp",
         "codec": "AAC",
-        "bitrate": 96,
-        "hls": 0,
-        "source": "radio-browser",
-        "identityConfidence": 92,
-        "stationuuid": "53c29beb-295c-11ea-aa0c-52543be04c81",
-        "finalUrl": "http://rusradio.hostingradio.ru/rusradio96.aacp",
+        "bitrate": 95,
         "sampling": 44100,
         "bitDepth": 0,
+        "hls": 0,
+        "trusted": true,
+        "official": false,
+        "source": "curated",
+        "identityConfidence": 100,
+        "finalUrl": "https://rusradio.hostingradio.ru/rusradio96.aacp",
         "icyName": "RR MSK",
-        "latencyMs": 3409,
-        "verifiedAt": "2026-08-18T19:01:33.554Z",
-        "score": 68478
+        "latencyMs": 5060,
+        "verifiedAt": "2026-08-19T01:56:30.205Z",
+        "score": 70588
       },
       "fallbacks": [
+        {
+          "url": "http://rusradio.hostingradio.ru/rusradio96.aacp",
+          "codec": "AAC",
+          "bitrate": 98,
+          "hls": 0,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "53c29beb-295c-11ea-aa0c-52543be04c81",
+          "finalUrl": "http://rusradio.hostingradio.ru/rusradio96.aacp",
+          "sampling": 44100,
+          "bitDepth": 0,
+          "icyName": "RR MSK",
+          "latencyMs": 3662,
+          "verifiedAt": "2026-08-19T01:56:43.048Z",
+          "score": 68628
+        },
+        {
+          "url": "https://edge01.cdn.bitflip.ee:8888/RR_AAC?_i=87e8c9f2&no-cache=1710341223893",
+          "codec": "AAC",
+          "bitrate": 90,
+          "hls": 0,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "f1e01133-8ef0-4b71-b77b-d2728eb726ee",
+          "finalUrl": "https://edge01.cdn.bitflip.ee:8888/RR_AAC?_i=87e8c9f2&no-cache=1710341223893",
+          "sampling": 24000,
+          "bitDepth": 0,
+          "icyName": "Russkoe Radio Stream",
+          "latencyMs": 5463,
+          "verifiedAt": "2026-08-19T01:56:35.668Z",
+          "score": 67467
+        },
         {
           "url": "https://rusradio.hostingradio.ru/rusradio128.mp3",
           "codec": "MP3",
@@ -2811,16 +2841,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://rusradio.hostingradio.ru/rusradio128.mp3",
           "icyName": "RR MSK",
-          "latencyMs": 2415,
-          "verifiedAt": "2026-08-18T19:01:30.146Z",
-          "score": 64417
+          "latencyMs": 3718,
+          "verifiedAt": "2026-08-19T01:56:39.386Z",
+          "score": 64156
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:33.554Z",
+      "verifiedAt": "2026-08-19T01:56:43.048Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-russkoe-radio.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-russkoe-radio.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://rusradio.ru/uploads/c9/5f/2b5731686624191ced4821aa09a9.jpg"
     },
@@ -2850,9 +2880,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
         "icyName": "Europa Plus 320k",
-        "latencyMs": 2456,
-        "verifiedAt": "2026-08-18T19:01:19.978Z",
-        "score": 64409
+        "latencyMs": 3424,
+        "verifiedAt": "2026-08-19T01:56:27.805Z",
+        "score": 64215
       },
       "fallbacks": [
         {
@@ -2866,16 +2896,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Europa Plus 320k",
-          "latencyMs": 4368,
-          "verifiedAt": "2026-08-18T19:01:27.705Z",
-          "score": 62546
+          "latencyMs": 3849,
+          "verifiedAt": "2026-08-19T01:56:33.895Z",
+          "score": 62650
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:27.705Z",
+      "verifiedAt": "2026-08-19T01:56:33.895Z",
       "tags": "dance,house,pop",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-europa-plus.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-europa-plus.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://liveam.tv/img/2494.jpg"
     },
@@ -2892,14 +2922,29 @@
       "genre": "music",
       "homepage": "https://www.avtoradio.ru/",
       "qualityTier": "",
-      "health": "offline",
-      "best": null,
+      "health": "ok",
+      "best": {
+        "url": "https://cast.mediaonline.net.ua/avtoradio",
+        "codec": "MP3",
+        "bitrate": 128,
+        "hls": 0,
+        "source": "radio-browser",
+        "identityConfidence": 92,
+        "stationuuid": "59735fa1-aadc-4e97-8943-b64cfe8f1998",
+        "finalUrl": "https://cast.mediaonline.net.ua/avtoradio",
+        "sampling": 44100,
+        "bitDepth": 0,
+        "icyName": "Avtoradio Ukraine",
+        "latencyMs": 4448,
+        "verifiedAt": "2026-08-19T01:56:32.674Z",
+        "score": 61470
+      },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:29.241Z",
+      "verifiedAt": "2026-08-19T01:56:32.674Z",
       "tags": "music",
       "language": "язык: русский",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-avtoradio.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-avtoradio.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.avtoradio.ru/design/images/icons/apple-touch-icon-precomposed.png"
     },
@@ -2917,18 +2962,35 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://hls-01-retro.emgsound.ru/12/128/playlist.m3u8?hlssid=20912f39a73649d6934ac80f6af894f1",
+        "url": "http://hls-01-retro.emgsound.ru/12/128/playlist.m3u8?hlssid=e1949987ce234b2d8eaa1485030ba166",
         "source": "iprd",
         "identityConfidence": 94,
-        "finalUrl": "http://hls-01-retro.emgsound.ru/12/128/playlist.m3u8?hlssid=20912f39a73649d6934ac80f6af894f1",
+        "finalUrl": "http://hls-01-retro.emgsound.ru/12/128/playlist.m3u8?hlssid=e1949987ce234b2d8eaa1485030ba166",
         "codec": "AAC",
         "bitrate": 132,
         "hls": 1,
-        "latencyMs": 1526,
-        "verifiedAt": "2026-08-18T19:01:29.311Z",
-        "score": 72915
+        "latencyMs": 1692,
+        "verifiedAt": "2026-08-19T01:56:32.358Z",
+        "score": 72882
       },
       "fallbacks": [
+        {
+          "url": "https://retro.hostingradio.ru:8014/retro320.mp3",
+          "codec": "MP3",
+          "bitrate": 128,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": false,
+          "source": "curated",
+          "identityConfidence": 100,
+          "finalUrl": "https://retro.hostingradio.ru:8014/retro320.mp3",
+          "icyName": "Retro FM 320k",
+          "latencyMs": 2233,
+          "verifiedAt": "2026-08-19T01:56:27.558Z",
+          "score": 64453
+        },
         {
           "url": "http://retroserver.streamr.ru:8043/retro256.mp3",
           "codec": "MP3",
@@ -2942,9 +3004,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://retroserver.streamr.ru:8043/retro256.mp3",
           "icyName": "Retro FM 320k",
-          "latencyMs": 4766,
-          "verifiedAt": "2026-08-18T19:01:27.784Z",
-          "score": 63947
+          "latencyMs": 3108,
+          "verifiedAt": "2026-08-19T01:56:30.666Z",
+          "score": 64278
         },
         {
           "url": "http://retroserver.streamr.ru:8043/retro128",
@@ -2957,31 +3019,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Retro FM 320k",
-          "latencyMs": 2478,
-          "verifiedAt": "2026-08-18T19:01:31.788Z",
-          "score": 62924
-        },
-        {
-          "url": "http://europaplus.hostingradio.ru:8014/retro320.mp3",
-          "source": "iprd",
-          "identityConfidence": 94,
-          "finalUrl": "http://europaplus.hostingradio.ru:8014/retro320.mp3",
-          "codec": "MP3",
-          "bitrate": 128,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "icyName": "Retro FM 320k",
-          "latencyMs": 3026,
-          "verifiedAt": "2026-08-18T19:01:34.815Z",
-          "score": 62815
+          "latencyMs": 2387,
+          "verifiedAt": "2026-08-19T01:56:34.745Z",
+          "score": 62943
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:34.815Z",
+      "verifiedAt": "2026-08-19T01:56:37.888Z",
       "tags": "retro",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-retro-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-retro-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://retrofm.ru/tg.png"
     },
@@ -2999,38 +3046,21 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
-        "codec": "MP3",
-        "bitrate": 192,
-        "sampling": 48000,
+        "url": "http://online.gtrkchita.ru:8100/mayak64aacp",
+        "source": "iprd",
+        "identityConfidence": 94,
+        "finalUrl": "http://online.gtrkchita.ru:8100/mayak64aacp",
+        "codec": "AAC",
+        "bitrate": 65,
+        "sampling": 22050,
         "bitDepth": 0,
         "hls": 0,
-        "trusted": true,
-        "official": false,
-        "source": "curated",
-        "identityConfidence": 100,
-        "finalUrl": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
-        "icyName": "Radio Mayak FM",
-        "latencyMs": 2984,
-        "verifiedAt": "2026-08-18T19:01:21.117Z",
-        "score": 70703
+        "icyName": "Radio Mayak Chita 64 aac+",
+        "latencyMs": 5073,
+        "verifiedAt": "2026-08-19T01:56:42.010Z",
+        "score": 66105
       },
       "fallbacks": [
-        {
-          "url": "http://online.gtrkchita.ru:8100/mayak64aacp",
-          "source": "iprd",
-          "identityConfidence": 94,
-          "finalUrl": "http://online.gtrkchita.ru:8100/mayak64aacp",
-          "codec": "AAC",
-          "bitrate": 66,
-          "sampling": 22050,
-          "bitDepth": 0,
-          "hls": 0,
-          "icyName": "Radio Mayak Chita 64 aac+",
-          "latencyMs": 5256,
-          "verifiedAt": "2026-08-18T19:01:31.874Z",
-          "score": 66169
-        },
         {
           "url": "http://online.gtrkchita.ru:8100/mayak128",
           "source": "iprd",
@@ -3042,9 +3072,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Mayak Chita 128",
-          "latencyMs": 3005,
-          "verifiedAt": "2026-08-18T19:01:34.879Z",
-          "score": 62819
+          "latencyMs": 2820,
+          "verifiedAt": "2026-08-19T01:56:44.830Z",
+          "score": 62856
         },
         {
           "url": "http://online.gtrkchita.ru:8100/mayak64",
@@ -3057,16 +3087,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Mayak Chita 64",
-          "latencyMs": 5285,
-          "verifiedAt": "2026-08-18T19:01:45.665Z",
-          "score": 55963
+          "latencyMs": 5396,
+          "verifiedAt": "2026-08-19T01:56:55.726Z",
+          "score": 55941
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:45.665Z",
+      "verifiedAt": "2026-08-19T01:56:55.727Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-mayak.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-mayak.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://cdn.smotrim.ru/static/front/favicon/apple-touch-icon.png"
     },
@@ -3084,9 +3114,9 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm",
+        "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
         "codec": "MP3",
-        "bitrate": 320,
+        "bitrate": 192,
         "sampling": 48000,
         "bitDepth": 0,
         "hls": 0,
@@ -3094,44 +3124,13 @@
         "official": false,
         "source": "curated",
         "identityConfidence": 100,
-        "finalUrl": "http://icecast.vgtrk.cdnvideo.ru/vestifm",
+        "finalUrl": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
         "icyName": "Radio Vesti FM",
-        "latencyMs": 3107,
-        "verifiedAt": "2026-08-18T19:01:20.924Z",
-        "score": 83479
+        "latencyMs": 2540,
+        "verifiedAt": "2026-08-19T01:56:33.683Z",
+        "score": 70792
       },
       "fallbacks": [
-        {
-          "url": "https://icecast-vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
-          "codec": "MP3",
-          "bitrate": 192,
-          "hls": 0,
-          "source": "radio-browser",
-          "identityConfidence": 92,
-          "stationuuid": "2140fa4a-7c5a-41be-9b93-5c9ae34bb93f",
-          "finalUrl": "https://icecast-vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
-          "sampling": 48000,
-          "bitDepth": 0,
-          "icyName": "Radio Vesti FM",
-          "latencyMs": 1042,
-          "verifiedAt": "2026-08-18T19:01:27.467Z",
-          "score": 68552
-        },
-        {
-          "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps",
-          "source": "iprd",
-          "identityConfidence": 94,
-          "finalUrl": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps",
-          "codec": "MP3",
-          "bitrate": 64,
-          "sampling": 48000,
-          "bitDepth": 0,
-          "hls": 0,
-          "icyName": "Radio Vesti FM",
-          "latencyMs": 5045,
-          "verifiedAt": "2026-08-18T19:01:37.617Z",
-          "score": 56011
-        },
         {
           "url": "http://online.gtrkchita.ru:8100/vestifm64",
           "source": "iprd",
@@ -3143,16 +3142,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "VestiFM Chita 64",
-          "latencyMs": 5104,
-          "verifiedAt": "2026-08-18T19:01:32.571Z",
-          "score": 55999
+          "latencyMs": 4998,
+          "verifiedAt": "2026-08-19T01:56:44.181Z",
+          "score": 56020
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:43.118Z",
+      "verifiedAt": "2026-08-19T01:56:55.182Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-vesti-fm.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-vesti-fm.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://smotrim.ru/favicon.ico"
     },
@@ -3168,14 +3167,30 @@
       "genre": "classical",
       "homepage": "https://www.radiorecord.ru/",
       "qualityTier": "",
-      "health": "offline",
-      "best": null,
+      "health": "ok",
+      "best": {
+        "url": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
+        "codec": "AAC",
+        "bitrate": 95,
+        "sampling": 44100,
+        "bitDepth": 0,
+        "hls": 0,
+        "trusted": true,
+        "official": false,
+        "source": "curated",
+        "identityConfidence": 100,
+        "finalUrl": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
+        "icyName": "",
+        "latencyMs": 4940,
+        "verifiedAt": "2026-08-19T01:56:33.853Z",
+        "score": 70612
+      },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:23.617Z",
+      "verifiedAt": "2026-08-19T01:56:33.998Z",
       "tags": "classical",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-record.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-record.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiorecord.ru/icons/apple-touch-icon.png"
     },
@@ -3193,19 +3208,52 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://hls-01-dfm.hostingradio.ru/dfm/96/playlist.m3u8?hlssid=97962821858c46b09169c7ef42d3f5dd",
+        "url": "https://dfm.hostingradio.ru/dfm96.aacp",
         "codec": "AAC",
-        "bitrate": 100,
-        "hls": 1,
-        "source": "radio-browser",
-        "identityConfidence": 92,
-        "stationuuid": "cf5377b2-8c7a-45b2-bc2d-0d6254dc3220",
-        "finalUrl": "https://hls-01-dfm.hostingradio.ru/dfm/96/playlist.m3u8?hlssid=97962821858c46b09169c7ef42d3f5dd",
-        "latencyMs": 1422,
-        "verifiedAt": "2026-08-18T19:01:31.149Z",
-        "score": 68676
+        "bitrate": 98,
+        "sampling": 44100,
+        "bitDepth": 0,
+        "hls": 0,
+        "trusted": true,
+        "official": false,
+        "source": "curated",
+        "identityConfidence": 100,
+        "finalUrl": "https://dfm.hostingradio.ru/dfm96.aacp",
+        "icyName": "DFM MSK",
+        "latencyMs": 5431,
+        "verifiedAt": "2026-08-19T01:56:34.928Z",
+        "score": 70814
       },
       "fallbacks": [
+        {
+          "url": "https://hls-01-dfm.hostingradio.ru/dfm/96/playlist.m3u8?hlssid=e622f78b2e924a2b875e3f4412ef1b95",
+          "codec": "AAC",
+          "bitrate": 100,
+          "hls": 1,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "cf5377b2-8c7a-45b2-bc2d-0d6254dc3220",
+          "finalUrl": "https://hls-01-dfm.hostingradio.ru/dfm/96/playlist.m3u8?hlssid=e622f78b2e924a2b875e3f4412ef1b95",
+          "latencyMs": 1043,
+          "verifiedAt": "2026-08-19T01:56:40.311Z",
+          "score": 68751
+        },
+        {
+          "url": "https://dfm.hostingradio.ru/dfm96.aacp?0.28225617725168517",
+          "codec": "AAC",
+          "bitrate": 98,
+          "hls": 0,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "87008f72-3741-11ea-8dd7-52543be04c81",
+          "finalUrl": "https://dfm.hostingradio.ru/dfm96.aacp?0.28225617725168517",
+          "sampling": 44100,
+          "bitDepth": 0,
+          "icyName": "DFM MSK",
+          "latencyMs": 4023,
+          "verifiedAt": "2026-08-19T01:56:47.056Z",
+          "score": 68555
+        },
         {
           "url": "https://dfm.hostingradio.ru/dfm96.aacp?5c80d70c",
           "codec": "AAC",
@@ -3218,49 +3266,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "DFM MSK",
-          "latencyMs": 3157,
-          "verifiedAt": "2026-08-18T19:01:44.233Z",
-          "score": 68629
-        },
-        {
-          "url": "http://dfm-basshouse.hostingradio.ru/basshouse96.aacp",
-          "codec": "AAC",
-          "bitrate": 95,
-          "hls": 0,
-          "source": "radio-browser",
-          "identityConfidence": 92,
-          "stationuuid": "5adf5909-20dd-443d-8f37-20e11fa7ad8d",
-          "finalUrl": "http://dfm-basshouse.hostingradio.ru/basshouse96.aacp",
-          "sampling": 44100,
-          "bitDepth": 0,
-          "icyName": "BASS_HOUSE",
-          "latencyMs": 5431,
-          "verifiedAt": "2026-08-18T19:01:29.727Z",
-          "score": 67974
-        },
-        {
-          "url": "http://dfm.hostingradio.ru/dfm128.mp3",
-          "codec": "MP3",
-          "bitrate": 128,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": false,
-          "source": "curated",
-          "identityConfidence": 100,
-          "finalUrl": "http://dfm.hostingradio.ru/dfm128.mp3",
-          "icyName": "DFM MSK",
-          "latencyMs": 4426,
-          "verifiedAt": "2026-08-18T19:01:35.575Z",
-          "score": 64015
+          "latencyMs": 5379,
+          "verifiedAt": "2026-08-19T01:56:52.436Z",
+          "score": 68184
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:44.233Z",
+      "verifiedAt": "2026-08-19T01:56:52.436Z",
       "tags": "bass house",
       "language": "язык: русский",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-dfm.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-dfm.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://dfm.ru/uploads/favicon.ico"
     },
@@ -3291,13 +3306,13 @@
         "identityConfidence": 100,
         "finalUrl": "http://ic2.101.ru:8000/v1_1",
         "icyName": "Energy-MSK",
-        "latencyMs": 3489,
-        "verifiedAt": "2026-08-18T19:01:27.287Z",
-        "score": 77002
+        "latencyMs": 2703,
+        "verifiedAt": "2026-08-19T01:56:33.462Z",
+        "score": 77159
       },
       "fallbacks": [
         {
-          "url": "http://hls-01-gpm.hostingradio.ru/energyfm49673/128/playlist.m3u8?hlssid=a83b90836d3d4a19b7392e5dbceea205",
+          "url": "http://hls-01-gpm.hostingradio.ru/energyfm49673/128/playlist.m3u8?hlssid=f076dc17b89d47e3b3df27e957f1dab1",
           "codec": "AAC",
           "bitrate": 128,
           "sampling": 0,
@@ -3307,17 +3322,17 @@
           "official": false,
           "source": "curated",
           "identityConfidence": 100,
-          "finalUrl": "http://hls-01-gpm.hostingradio.ru/energyfm49673/128/playlist.m3u8?hlssid=a83b90836d3d4a19b7392e5dbceea205",
-          "latencyMs": 3202,
-          "verifiedAt": "2026-08-18T19:01:23.797Z",
-          "score": 73660
+          "finalUrl": "http://hls-01-gpm.hostingradio.ru/energyfm49673/128/playlist.m3u8?hlssid=f076dc17b89d47e3b3df27e957f1dab1",
+          "latencyMs": 865,
+          "verifiedAt": "2026-08-19T01:56:30.759Z",
+          "score": 74127
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:27.287Z",
+      "verifiedAt": "2026-08-19T01:56:33.462Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-energy.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-energy.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.energyfm.ru/design/images/site-design/logo/Logo_180x180px.png"
     },
@@ -3347,16 +3362,16 @@
         "identityConfidence": 100,
         "finalUrl": "http://dorognoe.hostingradio.ru:8000/radio",
         "icyName": "Dorognoe Radio",
-        "latencyMs": 3165,
-        "verifiedAt": "2026-08-18T19:01:23.310Z",
-        "score": 57867
+        "latencyMs": 1335,
+        "verifiedAt": "2026-08-19T01:56:31.922Z",
+        "score": 58233
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:34.311Z",
+      "verifiedAt": "2026-08-19T01:56:42.923Z",
       "tags": "classic hits,russian hits",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-dorozhnoe-radio.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-dorozhnoe-radio.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://dorognoe.ru/assets/default/i/fav_114x114.png"
     },
@@ -3376,10 +3391,10 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:32.039Z",
+      "verifiedAt": "2026-08-19T01:56:39.261Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-humor-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-humor-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.veseloeradio.ru/design/images/assets/img/icons/touch-icon-ipad.png"
     },
@@ -3409,9 +3424,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://chanson.hostingradio.ru:8041/chanson256.mp3",
         "icyName": "CHANSON-MSK",
-        "latencyMs": 3663,
-        "verifiedAt": "2026-08-18T19:01:31.916Z",
-        "score": 76967
+        "latencyMs": 3113,
+        "verifiedAt": "2026-08-19T01:56:37.146Z",
+        "score": 77077
       },
       "fallbacks": [
         {
@@ -3427,13 +3442,13 @@
           "identityConfidence": 100,
           "finalUrl": "http://chanson.hostingradio.ru:8041/chanson128.mp3",
           "icyName": "CHANSON-MSK",
-          "latencyMs": 2855,
-          "verifiedAt": "2026-08-18T19:01:34.771Z",
-          "score": 64329
+          "latencyMs": 2749,
+          "verifiedAt": "2026-08-19T01:56:39.895Z",
+          "score": 64350
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:34.771Z",
+      "verifiedAt": "2026-08-19T01:56:39.895Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -3465,9 +3480,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://nashe1.hostingradio.ru/nashe-256",
         "icyName": "NASHE Radio (Moscow) 101.8 FM",
-        "latencyMs": 3704,
-        "verifiedAt": "2026-08-18T19:01:31.624Z",
-        "score": 76959
+        "latencyMs": 3401,
+        "verifiedAt": "2026-08-19T01:56:37.496Z",
+        "score": 77020
       },
       "fallbacks": [
         {
@@ -3483,9 +3498,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://nashe3.hostingradio.ru/nashe-128.mp3",
           "icyName": "NASHE Radio (Moscow) 101.8 FM",
-          "latencyMs": 2982,
-          "verifiedAt": "2026-08-18T19:01:34.606Z",
-          "score": 64304
+          "latencyMs": 2937,
+          "verifiedAt": "2026-08-19T01:56:40.433Z",
+          "score": 64313
         },
         {
           "url": "http://nashe.streamr.ru/nashe-128.mp3",
@@ -3498,9 +3513,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "NASHE Radio (Moscow) 101.8 FM",
-          "latencyMs": 3806,
-          "verifiedAt": "2026-08-18T19:01:41.521Z",
-          "score": 62659
+          "latencyMs": 3064,
+          "verifiedAt": "2026-08-19T01:56:46.210Z",
+          "score": 62807
         },
         {
           "url": "http://nashe1.hostingradio.ru/nashe-128.mp3",
@@ -3514,16 +3529,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "NASHE Radio (Moscow) 101.8 FM",
-          "latencyMs": 3108,
-          "verifiedAt": "2026-08-18T19:01:37.714Z",
-          "score": 61738
+          "latencyMs": 2712,
+          "verifiedAt": "2026-08-19T01:56:43.145Z",
+          "score": 61818
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:41.521Z",
+      "verifiedAt": "2026-08-19T01:56:46.210Z",
       "tags": "live air",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-nashe-radio.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-nashe-radio.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.nashe.ru/favicons/favicon.ico"
     },
@@ -3553,9 +3568,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://listen2.vdfm.ru:8000/dacha",
         "icyName": "No Name Station",
-        "latencyMs": 4159,
-        "verifiedAt": "2026-08-18T19:01:43.011Z",
-        "score": 64068
+        "latencyMs": 3645,
+        "verifiedAt": "2026-08-19T01:56:45.373Z",
+        "score": 64171
       },
       "fallbacks": [
         {
@@ -3570,16 +3585,16 @@
           "sampling": 32000,
           "bitDepth": 0,
           "icyName": "Fake",
-          "latencyMs": 3851,
-          "verifiedAt": "2026-08-18T19:01:38.852Z",
-          "score": 54390
+          "latencyMs": 1211,
+          "verifiedAt": "2026-08-19T01:56:41.728Z",
+          "score": 54918
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:43.011Z",
+      "verifiedAt": "2026-08-19T01:56:45.374Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-dacha.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-dacha.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiodacha.ru/logo.png"
     },
@@ -3609,9 +3624,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://silverrain.hostingradio.ru/silver128.mp3",
         "icyName": "",
-        "latencyMs": 4125,
-        "verifiedAt": "2026-08-18T19:01:36.420Z",
-        "score": 64075
+        "latencyMs": 3879,
+        "verifiedAt": "2026-08-19T01:56:41.954Z",
+        "score": 64124
       },
       "fallbacks": [
         {
@@ -3626,16 +3641,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "",
-          "latencyMs": 2645,
-          "verifiedAt": "2026-08-18T19:01:44.565Z",
-          "score": 61831
+          "latencyMs": 2685,
+          "verifiedAt": "2026-08-19T01:56:50.139Z",
+          "score": 61823
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:44.565Z",
+      "verifiedAt": "2026-08-19T01:56:50.139Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-silver-rain.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-silver-rain.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://silver.ru/apple-touch-icon.png"
     },
@@ -3665,16 +3680,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://bfm.hostingradio.ru:9075/fm",
         "icyName": "",
-        "latencyMs": 3573,
-        "verifiedAt": "2026-08-18T19:01:37.442Z",
-        "score": 76985
+        "latencyMs": 2815,
+        "verifiedAt": "2026-08-19T01:56:42.276Z",
+        "score": 77137
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:42.942Z",
+      "verifiedAt": "2026-08-19T01:56:47.777Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-business-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-business-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://s.bfm.ru/images/popup/logo.png"
     },
@@ -3704,16 +3719,16 @@
         "identityConfidence": 100,
         "finalUrl": "http://kommersant77.hostingradio.ru:8016/kommersant128.mp3",
         "icyName": "Kommersant FM",
-        "latencyMs": 3433,
-        "verifiedAt": "2026-08-18T19:01:38.018Z",
-        "score": 64213
+        "latencyMs": 2814,
+        "verifiedAt": "2026-08-19T01:56:42.912Z",
+        "score": 64337
       },
       "fallbacks": [],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:43.519Z",
+      "verifiedAt": "2026-08-19T01:56:48.412Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-kommersant-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-kommersant-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://iv.kommersant.ru/contentflex/images/apple-touch-icon-120x120.png"
     },
@@ -3731,9 +3746,9 @@
       "qualityTier": "",
       "health": "ok",
       "best": {
-        "url": "https://montecarlo.hostingradio.ru/montecarlo96.aacp",
-        "codec": "AAC",
-        "bitrate": 98,
+        "url": "https://montecarlo.hostingradio.ru/montecarlo128.mp3",
+        "codec": "MP3",
+        "bitrate": 128,
         "sampling": 44100,
         "bitDepth": 0,
         "hls": 0,
@@ -3741,36 +3756,18 @@
         "official": false,
         "source": "curated",
         "identityConfidence": 100,
-        "finalUrl": "https://montecarlo.hostingradio.ru/montecarlo96.aacp",
+        "finalUrl": "https://montecarlo.hostingradio.ru/montecarlo128.mp3",
         "icyName": "MC MSK",
-        "latencyMs": 3298,
-        "verifiedAt": "2026-08-18T19:01:40.062Z",
-        "score": 71240
+        "latencyMs": 5424,
+        "verifiedAt": "2026-08-19T01:56:55.380Z",
+        "score": 63815
       },
-      "fallbacks": [
-        {
-          "url": "https://montecarlo.hostingradio.ru/montecarlo128.mp3",
-          "codec": "MP3",
-          "bitrate": 128,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": false,
-          "source": "curated",
-          "identityConfidence": 100,
-          "finalUrl": "https://montecarlo.hostingradio.ru/montecarlo128.mp3",
-          "icyName": "MC MSK",
-          "latencyMs": 4922,
-          "verifiedAt": "2026-08-18T19:01:44.984Z",
-          "score": 63916
-        }
-      ],
+      "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:50.485Z",
+      "verifiedAt": "2026-08-19T01:57:00.881Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-monte-carlo.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-monte-carlo.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://montecarlo.ru/apple-icon.png?cdc4099e9b48f995"
     },
@@ -3790,7 +3787,7 @@
       "best": {
         "url": "http://maximum.hostingradio.ru/maximum96.aacp",
         "codec": "AAC",
-        "bitrate": 97,
+        "bitrate": 95,
         "hls": 0,
         "source": "radio-browser",
         "identityConfidence": 92,
@@ -3799,9 +3796,9 @@
         "sampling": 44100,
         "bitDepth": 0,
         "icyName": "MAX MSK",
-        "latencyMs": 3838,
-        "verifiedAt": "2026-08-18T19:01:41.509Z",
-        "score": 68492
+        "latencyMs": 3507,
+        "verifiedAt": "2026-08-19T01:56:48.463Z",
+        "score": 68359
       },
       "fallbacks": [
         {
@@ -3817,9 +3814,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://maximum.hostingradio.ru/maximum128.mp3",
           "icyName": "MAX MSK",
-          "latencyMs": 1820,
-          "verifiedAt": "2026-08-18T19:01:37.671Z",
-          "score": 64536
+          "latencyMs": 1077,
+          "verifiedAt": "2026-08-19T01:56:44.956Z",
+          "score": 64685
         },
         {
           "url": "https://maximum.hostingradio.ru/maximum128.mp3",
@@ -3833,16 +3830,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "MAX MSK",
-          "latencyMs": 3722,
-          "verifiedAt": "2026-08-18T19:01:45.455Z",
-          "score": 61616
+          "latencyMs": 3365,
+          "verifiedAt": "2026-08-19T01:56:52.073Z",
+          "score": 61687
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:45.455Z",
+      "verifiedAt": "2026-08-19T01:56:52.073Z",
       "tags": "rock",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-maximum.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-maximum.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://sun9-52.userapi.com/impf/c621513/v621513634/19b70/mlfH5n5JsAI.jpg?size=604x604&quality=96&sign=e66eefcb195bad96140072e9742b4a69&type=album"
     },
@@ -3862,10 +3859,10 @@
       "best": null,
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:44.211Z",
+      "verifiedAt": "2026-08-19T01:56:47.227Z",
       "tags": "life",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-relax-fm.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-relax-fm.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://relax-fm.ru/design/images/img_for_design/icons/touch-icon-ipad.png"
     },
@@ -3896,16 +3893,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://jfm1.hostingradio.ru:14536/sjstream.mp3",
         "icyName": "Smooth Jazz",
-        "latencyMs": 4473,
-        "verifiedAt": "2026-08-18T19:01:48.531Z",
-        "score": 64005
+        "latencyMs": 4070,
+        "verifiedAt": "2026-08-19T01:56:50.863Z",
+        "score": 64086
       },
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:48.531Z",
+      "verifiedAt": "2026-08-19T01:56:50.863Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-jazz.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-radio-jazz.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radiojazzfm.ru/favicons/favicon.ico"
     },
@@ -3931,19 +3928,19 @@
         "identityConfidence": 92,
         "stationuuid": "42d6ce8b-a2c9-4eb8-9a60-2dea5b9fedcf",
         "finalUrl": "http://87.244.47.90:8000/rh",
-        "sampling": 44100,
+        "sampling": 48000,
         "bitDepth": 0,
         "icyName": "HUMOR",
-        "latencyMs": 2889,
-        "verifiedAt": "2026-08-18T19:01:46.570Z",
-        "score": 74582
+        "latencyMs": 2251,
+        "verifiedAt": "2026-08-19T01:56:50.064Z",
+        "score": 74710
       },
       "fallbacks": [],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:57.573Z",
+      "verifiedAt": "2026-08-19T01:57:01.065Z",
       "tags": "",
       "language": "russian",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-love-radio.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-love-radio.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.loveradio.ru/favicon.ico"
     },
@@ -3972,11 +3969,27 @@
         "sampling": 44100,
         "bitDepth": 0,
         "icyName": "RuHit MSK",
-        "latencyMs": 3500,
-        "verifiedAt": "2026-08-18T19:01:47.606Z",
-        "score": 71660
+        "latencyMs": 3245,
+        "verifiedAt": "2026-08-19T01:56:51.603Z",
+        "score": 71711
       },
       "fallbacks": [
+        {
+          "url": "https://microit.n340.ru:8443/VgMv0WV17ZVx1uuo_19_ruhit_64_reg_1",
+          "codec": "AAC",
+          "bitrate": 65,
+          "hls": 0,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "96b913af-06ca-48ae-ae1f-3fba096bb43b",
+          "finalUrl": "https://microit.n340.ru:8443/VgMv0WV17ZVx1uuo_19_ruhit_64_reg_1",
+          "sampling": 22050,
+          "bitDepth": 0,
+          "icyName": "RuHit",
+          "latencyMs": 5256,
+          "verifiedAt": "2026-08-19T01:56:56.859Z",
+          "score": 65009
+        },
         {
           "url": "https://air2.amgradio.ru/RusHit-MSK",
           "codec": "MP3",
@@ -3990,9 +4003,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://air2.amgradio.ru/RusHit-MSK",
           "icyName": "",
-          "latencyMs": 4582,
-          "verifiedAt": "2026-08-18T19:02:06.668Z",
-          "score": 63984
+          "latencyMs": 3240,
+          "verifiedAt": "2026-08-19T01:57:08.015Z",
+          "score": 64252
         },
         {
           "url": "https://air2.volna.top/RusHit-MSK",
@@ -4006,32 +4019,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "",
-          "latencyMs": 3523,
-          "verifiedAt": "2026-08-18T19:01:56.629Z",
-          "score": 61655
-        },
-        {
-          "url": "https://stream2.n340.com/19_ruhit_24_reg_1?type=.aac&UID=CF32CF867382134A8C278C56C3CC282E",
-          "codec": "MP3",
-          "bitrate": 56,
-          "hls": 0,
-          "source": "radio-browser",
-          "identityConfidence": 92,
-          "stationuuid": "d67d7d59-a456-4528-828f-b045e1084440",
-          "finalUrl": "https://stream2.n340.com/19_ruhit_24_reg_1?type=.aac&UID=CF32CF867382134A8C278C56C3CC282E",
-          "sampling": 32000,
-          "bitDepth": 0,
-          "icyName": "Fake",
-          "latencyMs": 5457,
-          "verifiedAt": "2026-08-18T19:02:02.087Z",
-          "score": 54069
+          "latencyMs": 2415,
+          "verifiedAt": "2026-08-19T01:56:59.274Z",
+          "score": 61877
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:02:06.669Z",
+      "verifiedAt": "2026-08-19T01:57:08.016Z",
       "tags": "поп-музыка",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-russian-hit.jpg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/ru-russian-hit.jpg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://top-volna.ru/cover/station/eonVAM3VokgvgZP9EvR7K26DOgB52ZL9OrFEgxeD.jpg"
     },
@@ -4061,9 +4058,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://mediacp.jb-radio.net:8001/flac",
         "icyName": "JB Radio",
-        "latencyMs": 2169,
-        "verifiedAt": "2026-08-18T19:01:46.095Z",
-        "score": 128576
+        "latencyMs": 1695,
+        "verifiedAt": "2026-08-19T01:56:50.455Z",
+        "score": 128671
       },
       "fallbacks": [
         {
@@ -4079,17 +4076,18 @@
           "identityConfidence": 100,
           "finalUrl": "https://mediacp.jb-radio.net:8001/aac",
           "icyName": "JB RADIO",
-          "latencyMs": 2773,
-          "verifiedAt": "2026-08-18T19:01:48.868Z",
-          "score": 91845
+          "latencyMs": 1906,
+          "verifiedAt": "2026-08-19T01:56:52.362Z",
+          "score": 92019
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:01:51.869Z",
+      "verifiedAt": "2026-08-19T01:56:53.161Z",
       "tags": "",
       "language": "",
-      "logoUrl": "",
-      "logoSource": ""
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-jb-radio-2.jpg?v=2026-08-19T01%3A57%3A21.823Z",
+      "logoSource": "provider-cache",
+      "originalLogoUrl": "https://jb-radio.net/sites/all/themes/radio4b/images/header.jpg"
     },
     {
       "id": "hq-blueswave",
@@ -4116,9 +4114,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://blueswave.radio:8100/FlacBlues",
         "icyName": "BluesWave Radio",
-        "latencyMs": 3392,
-        "verifiedAt": "2026-08-18T19:01:48.058Z",
-        "score": 136722
+        "latencyMs": 3764,
+        "verifiedAt": "2026-08-19T01:56:54.252Z",
+        "score": 136647
       },
       "fallbacks": [
         {
@@ -4134,9 +4132,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://blueswave.radio:8100/hifiblues",
           "icyName": "BluesWave Radio",
-          "latencyMs": 3907,
-          "verifiedAt": "2026-08-18T19:01:51.966Z",
-          "score": 94819
+          "latencyMs": 900,
+          "verifiedAt": "2026-08-19T01:56:55.152Z",
+          "score": 95420
         },
         {
           "url": "https://blueswave.radio:8002/blues320",
@@ -4151,14 +4149,14 @@
           "identityConfidence": 100,
           "finalUrl": "https://blueswave.radio:8002/blues320",
           "icyName": "BluesWave_Radio_@320",
-          "latencyMs": 4600,
-          "verifiedAt": "2026-08-18T19:01:56.565Z",
-          "score": 84680
+          "latencyMs": 4069,
+          "verifiedAt": "2026-08-19T01:56:59.220Z",
+          "score": 84786
         },
         {
           "url": "https://blueswave.radio:8100/icyblues",
           "codec": "AAC",
-          "bitrate": 130,
+          "bitrate": 131,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -4167,17 +4165,18 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "BluesWave Radio",
-          "latencyMs": 1241,
-          "verifiedAt": "2026-08-18T19:01:57.806Z",
-          "score": 72552
+          "latencyMs": 3893,
+          "verifiedAt": "2026-08-19T01:57:03.114Z",
+          "score": 72121
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:02:02.829Z",
+      "verifiedAt": "2026-08-19T01:57:07.902Z",
       "tags": "electric blues",
       "language": "english,greek",
-      "logoUrl": "",
-      "logoSource": ""
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-blueswave.png?v=2026-08-19T01%3A57%3A21.823Z",
+      "logoSource": "provider-cache",
+      "originalLogoUrl": "https://blueswave.radio/fm223/wp-content/uploads/2021/10/cropped-BluesWave.Radio_.logo_.512X512-180x180.png"
     },
     {
       "id": "hq-new-age-gr",
@@ -4205,16 +4204,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.newageradio.gr/listen/hq/radio.flac",
         "icyName": "1st Greek New Age FLAC Radio",
-        "latencyMs": 1469,
-        "verifiedAt": "2026-08-18T19:01:46.666Z",
-        "score": 129106
+        "latencyMs": 1095,
+        "verifiedAt": "2026-08-19T01:56:52.522Z",
+        "score": 129181
       },
       "fallbacks": [],
       "candidatesChecked": 1,
-      "verifiedAt": "2026-08-18T19:01:46.666Z",
+      "verifiedAt": "2026-08-19T01:56:52.523Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-new-age-gr.svg?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-new-age-gr.svg?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://newageradio.gr/favicon.svg"
     },
@@ -4243,9 +4242,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radiobergeijk.nl/listen/radio_bergeijk/flac",
         "icyName": "Radio Bergeijk",
-        "latencyMs": 1359,
-        "verifiedAt": "2026-08-18T19:01:47.223Z",
-        "score": 129128
+        "latencyMs": 1212,
+        "verifiedAt": "2026-08-19T01:56:53.668Z",
+        "score": 129158
       },
       "fallbacks": [
         {
@@ -4261,14 +4260,14 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radiobergeijk.nl/listen/radio_bergeijk/mp3",
           "icyName": "Radio Bergeijk",
-          "latencyMs": 2649,
-          "verifiedAt": "2026-08-18T19:01:49.872Z",
-          "score": 85070
+          "latencyMs": 2543,
+          "verifiedAt": "2026-08-19T01:56:56.211Z",
+          "score": 85091
         },
         {
           "url": "https://stream.radiobergeijk.nl/listen/radio_bergeijk/mobiel",
           "codec": "AAC",
-          "bitrate": 131,
+          "bitrate": 130,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 100,
@@ -4277,16 +4276,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio Bergeijk",
-          "latencyMs": 2076,
-          "verifiedAt": "2026-08-18T19:01:51.948Z",
-          "score": 72485
+          "latencyMs": 1991,
+          "verifiedAt": "2026-08-19T01:56:58.202Z",
+          "score": 72402
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:51.949Z",
+      "verifiedAt": "2026-08-19T01:56:58.203Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-bergeijk.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-bergeijk.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiobergeijk.nl/wp-content/uploads/2023/05/cropped-bergeijk-wapen-180x180.png"
     },
@@ -4315,16 +4314,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://mscp4.live-streams.nl:8142/lounge.ogg",
         "icyName": "Pure Lounge Radio",
-        "latencyMs": 1829,
-        "verifiedAt": "2026-08-18T19:01:47.789Z",
-        "score": 135144
+        "latencyMs": 1567,
+        "verifiedAt": "2026-08-19T01:56:54.182Z",
+        "score": 135197
       },
       "fallbacks": [
         {
           "url": "https://mscp4.live-streams.nl:8142/lounge.mp3",
           "codec": "MP3",
-          "bitrate": 224,
-          "sampling": 32000,
+          "bitrate": 320,
+          "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
@@ -4333,16 +4332,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://mscp4.live-streams.nl:8142/lounge.mp3",
           "icyName": "Pure Lounge Radio",
-          "latencyMs": 1066,
-          "verifiedAt": "2026-08-18T19:01:48.855Z",
-          "score": 74287
+          "latencyMs": 1025,
+          "verifiedAt": "2026-08-19T01:56:55.207Z",
+          "score": 83895
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:01:48.855Z",
+      "verifiedAt": "2026-08-19T01:56:55.207Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-pure-lounge.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-pure-lounge.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://pureloungeradio.com/favicon.ico"
     },
@@ -4372,15 +4371,15 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radioenergy.to/stream",
         "icyName": "Radio Energy Is On (Flac)",
-        "latencyMs": 2013,
-        "verifiedAt": "2026-08-18T19:01:48.409Z",
-        "score": 135497
+        "latencyMs": 1060,
+        "verifiedAt": "2026-08-19T01:56:54.177Z",
+        "score": 135688
       },
       "fallbacks": [
         {
           "url": "https://stream.radioenergy.to/nrgmp3",
           "codec": "MP3",
-          "bitrate": 256,
+          "bitrate": 320,
           "sampling": 48000,
           "bitDepth": 0,
           "hls": 0,
@@ -4390,9 +4389,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radioenergy.to/nrgmp3",
           "icyName": "Radio Energy Is On",
-          "latencyMs": 698,
-          "verifiedAt": "2026-08-18T19:01:53.138Z",
-          "score": 77560
+          "latencyMs": 469,
+          "verifiedAt": "2026-08-19T01:56:55.715Z",
+          "score": 84006
         },
         {
           "url": "https://stream.radioenergy.to/nrgaac",
@@ -4407,13 +4406,13 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radioenergy.to/nrgaac",
           "icyName": "Radio Energy Is On",
-          "latencyMs": 4031,
-          "verifiedAt": "2026-08-18T19:01:52.440Z",
-          "score": 74194
+          "latencyMs": 1068,
+          "verifiedAt": "2026-08-19T01:56:55.246Z",
+          "score": 74786
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:01:53.138Z",
+      "verifiedAt": "2026-08-19T01:56:55.715Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -4445,15 +4444,15 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radioparadise.com/flac",
         "icyName": "Radio Paradise (flac) - playlist: radioparadise.com",
-        "latencyMs": 424,
-        "verifiedAt": "2026-08-18T19:01:47.976Z",
-        "score": 127425
+        "latencyMs": 249,
+        "verifiedAt": "2026-08-19T01:56:54.215Z",
+        "score": 127460
       },
       "fallbacks": [
         {
           "url": "https://stream.radioparadise.com/aac-320",
           "codec": "AAC",
-          "bitrate": 320,
+          "bitrate": 325,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
@@ -4463,9 +4462,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radioparadise.com/aac-320",
           "icyName": "Radio Paradise (320k aac)",
-          "latencyMs": 305,
-          "verifiedAt": "2026-08-18T19:01:48.281Z",
-          "score": 94039
+          "latencyMs": 418,
+          "verifiedAt": "2026-08-19T01:56:54.634Z",
+          "score": 94516
         },
         {
           "url": "http://stream-dc1.radioparadise.com/aac-320",
@@ -4473,14 +4472,14 @@
           "identityConfidence": 94,
           "finalUrl": "http://stream-dc1.radioparadise.com/aac-320",
           "codec": "AAC",
-          "bitrate": 320,
+          "bitrate": 319,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise (320k aac)",
-          "latencyMs": 657,
-          "verifiedAt": "2026-08-18T19:01:51.907Z",
-          "score": 92489
+          "latencyMs": 136,
+          "verifiedAt": "2026-08-19T01:56:54.972Z",
+          "score": 92493
         },
         {
           "url": "http://stream-uk1.radioparadise.com/aac-320",
@@ -4488,21 +4487,21 @@
           "identityConfidence": 94,
           "finalUrl": "http://stream-uk1.radioparadise.com/aac-320",
           "codec": "AAC",
-          "bitrate": 320,
+          "bitrate": 319,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise (320k aac)",
-          "latencyMs": 1163,
-          "verifiedAt": "2026-08-18T19:01:55.942Z",
-          "score": 92387
+          "latencyMs": 809,
+          "verifiedAt": "2026-08-19T01:56:58.565Z",
+          "score": 92358
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:55.942Z",
+      "verifiedAt": "2026-08-19T01:56:58.565Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-main.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-main.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radioparadise.com/apple-touch-icon.png"
     },
@@ -4531,15 +4530,15 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radioparadise.com/mellow-flac",
         "icyName": "Radio Paradise: Mellow Mix (flac) - playlist: radioparadise.com",
-        "latencyMs": 208,
-        "verifiedAt": "2026-08-18T19:01:48.988Z",
-        "score": 127468
+        "latencyMs": 129,
+        "verifiedAt": "2026-08-19T01:56:55.595Z",
+        "score": 127484
       },
       "fallbacks": [
         {
           "url": "http://stream.radioparadise.com/mellow-320",
           "codec": "AAC",
-          "bitrate": 322,
+          "bitrate": 321,
           "hls": 0,
           "source": "radio-browser",
           "identityConfidence": 92,
@@ -4548,9 +4547,9 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "Radio Paradise: Mellow Mix (320k aac)",
-          "latencyMs": 2690,
-          "verifiedAt": "2026-08-18T19:01:51.679Z",
-          "score": 91222
+          "latencyMs": 2317,
+          "verifiedAt": "2026-08-19T01:56:57.913Z",
+          "score": 91197
         },
         {
           "url": "http://stream.radioparadise.com/mellow-128",
@@ -4563,9 +4562,9 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise: Mellow Mix (128k aac)",
-          "latencyMs": 246,
-          "verifiedAt": "2026-08-18T19:01:51.925Z",
-          "score": 73371
+          "latencyMs": 451,
+          "verifiedAt": "2026-08-19T01:56:58.364Z",
+          "score": 73330
         },
         {
           "url": "http://stream.radioparadise.com/mellow-192",
@@ -4578,16 +4577,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise: Mellow Mix (192k mp3)",
-          "latencyMs": 165,
-          "verifiedAt": "2026-08-18T19:01:52.090Z",
-          "score": 69787
+          "latencyMs": 248,
+          "verifiedAt": "2026-08-19T01:56:58.612Z",
+          "score": 69770
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:57.015Z",
+      "verifiedAt": "2026-08-19T01:57:03.148Z",
       "tags": "ad free,mellow,smooth",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-mellow.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-mellow.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radioparadise.com/apple-touch-icon.png"
     },
@@ -4616,9 +4615,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radioparadise.com/rock-flac",
         "icyName": "Radio Paradise: Rock Mix (flac) - playlist: radioparadise.com",
-        "latencyMs": 2474,
-        "verifiedAt": "2026-08-18T19:01:51.791Z",
-        "score": 127015
+        "latencyMs": 131,
+        "verifiedAt": "2026-08-19T01:56:58.254Z",
+        "score": 127484
       },
       "fallbacks": [
         {
@@ -4627,14 +4626,14 @@
           "identityConfidence": 94,
           "finalUrl": "http://stream.radioparadise.com/rock-320",
           "codec": "AAC",
-          "bitrate": 319,
+          "bitrate": 321,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise: Rock Mix (320k aac)",
-          "latencyMs": 226,
-          "verifiedAt": "2026-08-18T19:01:52.017Z",
-          "score": 92475
+          "latencyMs": 108,
+          "verifiedAt": "2026-08-19T01:56:58.362Z",
+          "score": 92698
         },
         {
           "url": "http://stream.radioparadise.com/rock-128",
@@ -4642,14 +4641,14 @@
           "identityConfidence": 94,
           "finalUrl": "http://stream.radioparadise.com/rock-128",
           "codec": "AAC",
-          "bitrate": 128,
+          "bitrate": 125,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise: Rock Mix (128k aac)",
-          "latencyMs": 174,
-          "verifiedAt": "2026-08-18T19:01:52.191Z",
-          "score": 73385
+          "latencyMs": 190,
+          "verifiedAt": "2026-08-19T01:56:58.552Z",
+          "score": 73082
         },
         {
           "url": "http://stream.radioparadise.com/rock-192",
@@ -4662,16 +4661,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Radio Paradise: Rock Mix (192k mp3)",
-          "latencyMs": 2657,
-          "verifiedAt": "2026-08-18T19:01:54.849Z",
-          "score": 69289
+          "latencyMs": 107,
+          "verifiedAt": "2026-08-19T01:56:58.660Z",
+          "score": 69799
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:59.410Z",
+      "verifiedAt": "2026-08-19T01:57:03.562Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-rock.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-paradise-rock.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radioparadise.com/apple-touch-icon.png"
     },
@@ -4688,7 +4687,7 @@
       "qualityTier": "hq",
       "health": "ok",
       "best": {
-        "url": "https://ice6.somafm.com/spacestation-320-mp3",
+        "url": "https://ice2.somafm.com/spacestation-320-mp3",
         "codec": "MP3",
         "bitrate": 320,
         "sampling": 44100,
@@ -4698,11 +4697,11 @@
         "official": true,
         "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "https://ice6.somafm.com/spacestation-320-mp3",
+        "finalUrl": "https://ice2.somafm.com/spacestation-320-mp3",
         "icyName": "Space Station Soma: Tune in, turn on, space out. Ambient and mid-tempo electronica. [SomaFM]",
-        "latencyMs": 280,
-        "verifiedAt": "2026-08-18T19:01:51.939Z",
-        "score": 85544
+        "latencyMs": 287,
+        "verifiedAt": "2026-08-19T01:56:59.982Z",
+        "score": 85543
       },
       "fallbacks": [
         {
@@ -4718,9 +4717,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://ice5.somafm.com/spacestation-320-mp3",
           "icyName": "Space Station Soma: Tune in, turn on, space out. Ambient and mid-tempo electronica. [SomaFM]",
-          "latencyMs": 315,
-          "verifiedAt": "2026-08-18T19:01:52.254Z",
-          "score": 85537
+          "latencyMs": 554,
+          "verifiedAt": "2026-08-19T01:56:59.695Z",
+          "score": 85489
         },
         {
           "url": "https://ice2.somafm.com/spacestation-320-mp3",
@@ -4735,9 +4734,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://ice2.somafm.com/spacestation-320-mp3",
           "icyName": "Space Station Soma: Tune in, turn on, space out. Ambient and mid-tempo electronica. [SomaFM]",
-          "latencyMs": 2610,
-          "verifiedAt": "2026-08-18T19:01:54.864Z",
-          "score": 85078
+          "latencyMs": 703,
+          "verifiedAt": "2026-08-19T01:56:59.141Z",
+          "score": 85459
         },
         {
           "url": "http://ice4.somafm.com/spacestation-128-aac",
@@ -4745,21 +4744,21 @@
           "identityConfidence": 94,
           "finalUrl": "http://ice4.somafm.com/spacestation-128-aac",
           "codec": "AAC",
-          "bitrate": 126,
+          "bitrate": 129,
           "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Space Station Soma from SomaFM.com [SomaFM]",
-          "latencyMs": 151,
-          "verifiedAt": "2026-08-18T19:01:55.581Z",
-          "score": 73190
+          "latencyMs": 3323,
+          "verifiedAt": "2026-08-19T01:57:06.685Z",
+          "score": 72855
         }
       ],
       "candidatesChecked": 6,
-      "verifiedAt": "2026-08-18T19:01:55.725Z",
+      "verifiedAt": "2026-08-19T01:57:07.015Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-space.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-space.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://somafm.com/favicon.ico"
     },
@@ -4776,7 +4775,7 @@
       "qualityTier": "hq",
       "health": "ok",
       "best": {
-        "url": "https://ice6.somafm.com/seventies-320-mp3",
+        "url": "https://ice5.somafm.com/seventies-320-mp3",
         "codec": "MP3",
         "bitrate": 320,
         "sampling": 44100,
@@ -4786,15 +4785,15 @@
         "official": true,
         "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "https://ice6.somafm.com/seventies-320-mp3",
+        "finalUrl": "https://ice5.somafm.com/seventies-320-mp3",
         "icyName": "Left Coast 70s: Mellow album rock from the Seventies. Yacht friendly. [SomaFM]",
-        "latencyMs": 108,
-        "verifiedAt": "2026-08-18T19:01:55.604Z",
-        "score": 85578
+        "latencyMs": 631,
+        "verifiedAt": "2026-08-19T01:56:59.633Z",
+        "score": 85474
       },
       "fallbacks": [
         {
-          "url": "https://ice5.somafm.com/seventies-320-mp3",
+          "url": "https://ice2.somafm.com/seventies-320-mp3",
           "codec": "MP3",
           "bitrate": 320,
           "sampling": 44100,
@@ -4804,11 +4803,11 @@
           "official": true,
           "source": "official",
           "identityConfidence": 100,
-          "finalUrl": "https://ice5.somafm.com/seventies-320-mp3",
+          "finalUrl": "https://ice2.somafm.com/seventies-320-mp3",
           "icyName": "Left Coast 70s: Mellow album rock from the Seventies. Yacht friendly. [SomaFM]",
-          "latencyMs": 141,
-          "verifiedAt": "2026-08-18T19:01:55.497Z",
-          "score": 85572
+          "latencyMs": 726,
+          "verifiedAt": "2026-08-19T01:56:59.002Z",
+          "score": 85455
         },
         {
           "url": "https://ice6.somafm.com/seventies-320-mp3",
@@ -4823,9 +4822,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://ice6.somafm.com/seventies-320-mp3",
           "icyName": "Left Coast 70s: Mellow album rock from the Seventies. Yacht friendly. [SomaFM]",
-          "latencyMs": 176,
-          "verifiedAt": "2026-08-18T19:01:55.356Z",
-          "score": 85565
+          "latencyMs": 3256,
+          "verifiedAt": "2026-08-19T01:57:02.889Z",
+          "score": 84949
         },
         {
           "url": "http://ice4.somafm.com/seventies-128-mp3",
@@ -4838,16 +4837,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Left Coast 70s: Mellow album rock from the Seventies. Yacht friendly. [SomaFM]",
-          "latencyMs": 139,
-          "verifiedAt": "2026-08-18T19:01:55.743Z",
-          "score": 63392
+          "latencyMs": 782,
+          "verifiedAt": "2026-08-19T01:57:03.671Z",
+          "score": 63264
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:55.773Z",
+      "verifiedAt": "2026-08-19T01:57:06.468Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-leftcoast.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-leftcoast.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://somafm.com/favicon.ico"
     },
@@ -4864,7 +4863,7 @@
       "qualityTier": "hq",
       "health": "ok",
       "best": {
-        "url": "https://ice6.somafm.com/bootliquor-320-mp3",
+        "url": "https://ice2.somafm.com/bootliquor-320-mp3",
         "codec": "MP3",
         "bitrate": 320,
         "sampling": 44100,
@@ -4874,30 +4873,13 @@
         "official": true,
         "source": "official",
         "identityConfidence": 100,
-        "finalUrl": "https://ice6.somafm.com/bootliquor-320-mp3",
+        "finalUrl": "https://ice2.somafm.com/bootliquor-320-mp3",
         "icyName": "Boot Liquor: Americana roots music for Cowhands, Cowpokes and Cowtippers. [SomaFM]",
-        "latencyMs": 122,
-        "verifiedAt": "2026-08-18T19:01:52.580Z",
-        "score": 85576
+        "latencyMs": 289,
+        "verifiedAt": "2026-08-19T01:56:59.977Z",
+        "score": 85542
       },
       "fallbacks": [
-        {
-          "url": "https://ice2.somafm.com/bootliquor-320-mp3",
-          "codec": "MP3",
-          "bitrate": 320,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://ice2.somafm.com/bootliquor-320-mp3",
-          "icyName": "Boot Liquor: Americana roots music for Cowhands, Cowpokes and Cowtippers. [SomaFM]",
-          "latencyMs": 349,
-          "verifiedAt": "2026-08-18T19:01:55.454Z",
-          "score": 85530
-        },
         {
           "url": "https://ice5.somafm.com/bootliquor-320-mp3",
           "codec": "MP3",
@@ -4911,9 +4893,26 @@
           "identityConfidence": 100,
           "finalUrl": "https://ice5.somafm.com/bootliquor-320-mp3",
           "icyName": "Boot Liquor: Americana roots music for Cowhands, Cowpokes and Cowtippers. [SomaFM]",
-          "latencyMs": 2525,
-          "verifiedAt": "2026-08-18T19:01:55.106Z",
-          "score": 85095
+          "latencyMs": 492,
+          "verifiedAt": "2026-08-19T01:56:59.688Z",
+          "score": 85502
+        },
+        {
+          "url": "https://ice2.somafm.com/bootliquor-320-mp3",
+          "codec": "MP3",
+          "bitrate": 320,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "https://ice2.somafm.com/bootliquor-320-mp3",
+          "icyName": "Boot Liquor: Americana roots music for Cowhands, Cowpokes and Cowtippers. [SomaFM]",
+          "latencyMs": 528,
+          "verifiedAt": "2026-08-19T01:56:59.195Z",
+          "score": 85494
         },
         {
           "url": "http://ice1.somafm.com/bootliquor-320-mp3",
@@ -4926,16 +4925,16 @@
           "bitDepth": 0,
           "hls": 0,
           "icyName": "Boot Liquor: Americana roots music for Cowhands, Cowpokes and Cowtippers. [SomaFM]",
-          "latencyMs": 153,
-          "verifiedAt": "2026-08-18T19:01:55.761Z",
-          "score": 82589
+          "latencyMs": 2988,
+          "verifiedAt": "2026-08-19T01:57:03.242Z",
+          "score": 82022
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:01:55.761Z",
+      "verifiedAt": "2026-08-19T01:57:03.242Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-bootliquor.ico?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-somafm-bootliquor.ico?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://somafm.com/favicon.ico"
     },
@@ -4964,27 +4963,11 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radio-calico.com/calico",
         "icyName": "Radio Calico - lossless",
-        "latencyMs": 2123,
-        "verifiedAt": "2026-08-18T19:01:55.612Z",
-        "score": 136975
+        "latencyMs": 313,
+        "verifiedAt": "2026-08-19T01:56:59.086Z",
+        "score": 137337
       },
       "fallbacks": [
-        {
-          "url": "https://stream.radio-calico.com/calico",
-          "codec": "MP3",
-          "bitrate": 416,
-          "hls": 0,
-          "source": "radio-browser",
-          "identityConfidence": 92,
-          "stationuuid": "f0dc4288-f4ea-4f49-b201-15cc54683af4",
-          "finalUrl": "https://stream.radio-calico.com/calico",
-          "sampling": 44100,
-          "bitDepth": 0,
-          "icyName": "Radio Calico - lossless",
-          "latencyMs": 3829,
-          "verifiedAt": "2026-08-18T19:02:01.662Z",
-          "score": 90394
-        },
         {
           "url": "https://d3d4yli4hf5bmh.cloudfront.net/hls/aac_hifi.m3u8",
           "codec": "AAC",
@@ -4997,9 +4980,25 @@
           "source": "official",
           "identityConfidence": 100,
           "finalUrl": "https://d3d4yli4hf5bmh.cloudfront.net/hls/aac_hifi.m3u8",
-          "latencyMs": 256,
-          "verifiedAt": "2026-08-18T19:01:57.834Z",
-          "score": 84049
+          "latencyMs": 2188,
+          "verifiedAt": "2026-08-19T01:57:03.131Z",
+          "score": 83662
+        },
+        {
+          "url": "https://stream.radio-calico.com/calico",
+          "codec": "MP3",
+          "bitrate": 256,
+          "hls": 0,
+          "source": "radio-browser",
+          "identityConfidence": 92,
+          "stationuuid": "0a55298e-7589-4dde-9c85-b0960c87193f",
+          "finalUrl": "https://stream.radio-calico.com/calico",
+          "sampling": 32000,
+          "bitDepth": 0,
+          "icyName": "Radio Calico - lossless",
+          "latencyMs": 332,
+          "verifiedAt": "2026-08-19T01:57:07.081Z",
+          "score": 75094
         },
         {
           "url": "https://stream.radio-calico.com/calico.mp3",
@@ -5014,16 +5013,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radio-calico.com/calico.mp3",
           "icyName": "Radio Calico - 192kpbs",
-          "latencyMs": 1965,
-          "verifiedAt": "2026-08-18T19:01:57.577Z",
-          "score": 69207
+          "latencyMs": 1858,
+          "verifiedAt": "2026-08-19T01:57:00.943Z",
+          "score": 69228
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:02:06.088Z",
+      "verifiedAt": "2026-08-19T01:57:07.081Z",
       "tags": "music,rock.",
       "language": "english",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-calico.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-calico.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radio-calico.com/wp-content/uploads/2023/01/RadioCalicoLogo-100.png"
     },
@@ -5054,28 +5053,11 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.kalx.berkeley.edu:8443/kalx.flac",
         "icyName": "kalx-flac",
-        "latencyMs": 1615,
-        "verifiedAt": "2026-08-18T19:01:58.022Z",
-        "score": 128687
+        "latencyMs": 3393,
+        "verifiedAt": "2026-08-19T01:57:04.964Z",
+        "score": 128331
       },
       "fallbacks": [
-        {
-          "url": "https://stream.kalx.berkeley.edu:8443/kalx-256.mp3",
-          "codec": "MP3",
-          "bitrate": 448,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://stream.kalx.berkeley.edu:8443/kalx-256.mp3",
-          "icyName": "kalx-256-mp3",
-          "latencyMs": 1263,
-          "verifiedAt": "2026-08-18T19:02:03.313Z",
-          "score": 98147
-        },
         {
           "url": "https://stream.kalx.berkeley.edu:8443/kalx-320.aac",
           "codec": "AAC",
@@ -5089,16 +5071,33 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.kalx.berkeley.edu:8443/kalx-320.aac",
           "icyName": "kalx-320-aac",
-          "latencyMs": 4028,
-          "verifiedAt": "2026-08-18T19:02:02.050Z",
-          "score": 94794
+          "latencyMs": 2709,
+          "verifiedAt": "2026-08-19T01:57:07.673Z",
+          "score": 95058
+        },
+        {
+          "url": "https://stream.kalx.berkeley.edu:8443/kalx-256.mp3",
+          "codec": "MP3",
+          "bitrate": 384,
+          "sampling": 32000,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "https://stream.kalx.berkeley.edu:8443/kalx-256.mp3",
+          "icyName": "kalx-256-mp3",
+          "latencyMs": 1264,
+          "verifiedAt": "2026-08-19T01:57:08.937Z",
+          "score": 91747
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:02:03.314Z",
+      "verifiedAt": "2026-08-19T01:57:08.937Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-kalx.gif?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-kalx.gif?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.kalx.berkeley.edu/wp-content/uploads/2023/11/cropped-favicon-1-180x180.gif"
     },
@@ -5127,11 +5126,26 @@
         "identityConfidence": 100,
         "finalUrl": "https://secure.live-streams.nl/flac.ogg",
         "icyName": "Intense Radio - We love Dance #HQ# FLAC",
-        "latencyMs": 1667,
-        "verifiedAt": "2026-08-18T19:01:57.835Z",
-        "score": 128677
+        "latencyMs": 2665,
+        "verifiedAt": "2026-08-19T01:57:04.136Z",
+        "score": 128477
       },
       "fallbacks": [
+        {
+          "url": "http://secure.live-streams.nl/flac.flac",
+          "source": "iprd",
+          "identityConfidence": 94,
+          "finalUrl": "http://secure.live-streams.nl/flac.flac",
+          "codec": "MP3",
+          "bitrate": 352,
+          "sampling": 32000,
+          "bitDepth": 0,
+          "hls": 0,
+          "icyName": "Intense Radio - We love Dance #HQ# FLAC",
+          "latencyMs": 691,
+          "verifiedAt": "2026-08-19T01:57:07.979Z",
+          "score": 85682
+        },
         {
           "url": "https://intenseradio.live-streams.nl/live",
           "codec": "MP3",
@@ -5145,31 +5159,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://intenseradio.live-streams.nl/live",
           "icyName": "Intense Radio - We love Dance 256K",
-          "latencyMs": 4338,
-          "verifiedAt": "2026-08-18T19:02:02.173Z",
-          "score": 76832
-        },
-        {
-          "url": "http://secure.live-streams.nl/flac.flac",
-          "source": "iprd",
-          "identityConfidence": 94,
-          "finalUrl": "http://secure.live-streams.nl/flac.flac",
-          "codec": "MP3",
-          "bitrate": 224,
-          "sampling": 32000,
-          "bitDepth": 0,
-          "hls": 0,
-          "icyName": "Intense Radio - We love Dance #HQ# FLAC",
-          "latencyMs": 4093,
-          "verifiedAt": "2026-08-18T19:02:06.266Z",
-          "score": 72201
+          "latencyMs": 3152,
+          "verifiedAt": "2026-08-19T01:57:07.288Z",
+          "score": 77070
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:02:06.795Z",
+      "verifiedAt": "2026-08-19T01:57:10.185Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-intense-radio.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-intense-radio.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.intenseradio.net/wp-content/uploads/2023/09/cropped-android-chrome-512x512-1-2-180x180.png"
     },
@@ -5198,15 +5197,15 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.tnm-radio.eu/ultra",
         "icyName": "TNM Radio (Ultra)",
-        "latencyMs": 4177,
-        "verifiedAt": "2026-08-18T19:02:01.521Z",
-        "score": 136565
+        "latencyMs": 3436,
+        "verifiedAt": "2026-08-19T01:57:10.895Z",
+        "score": 136713
       },
       "fallbacks": [
         {
           "url": "https://stream.tnm-radio.eu/high",
           "codec": "AAC",
-          "bitrate": 254,
+          "bitrate": 257,
           "sampling": 48000,
           "bitDepth": 0,
           "hls": 0,
@@ -5216,13 +5215,13 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.tnm-radio.eu/high",
           "icyName": "TNM Radio (High)",
-          "latencyMs": 4919,
-          "verifiedAt": "2026-08-18T19:02:06.440Z",
-          "score": 88016
+          "latencyMs": 3124,
+          "verifiedAt": "2026-08-19T01:57:14.018Z",
+          "score": 88675
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:02:06.440Z",
+      "verifiedAt": "2026-08-19T01:57:14.019Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
@@ -5254,9 +5253,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://frequence3.net-radio.fr/frequence3.flac",
         "icyName": "FREQUENCE 3 - Une Rafale de Tubes sans pub et en FLAC !",
-        "latencyMs": 957,
-        "verifiedAt": "2026-08-18T19:01:57.392Z",
-        "score": 129209
+        "latencyMs": 833,
+        "verifiedAt": "2026-08-19T01:57:07.934Z",
+        "score": 129233
       },
       "fallbacks": [
         {
@@ -5272,9 +5271,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3-256.mp3",
           "icyName": "FREQUENCE 3 - Une Rafale de Tubes sans pub en HD !",
-          "latencyMs": 918,
-          "verifiedAt": "2026-08-18T19:01:58.310Z",
-          "score": 79016
+          "latencyMs": 2358,
+          "verifiedAt": "2026-08-19T01:57:10.293Z",
+          "score": 78728
         },
         {
           "url": "http://hd.stream.frequence3.net/frequence3-256.mp3",
@@ -5288,14 +5287,14 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "FREQUENCE 3 - Une Rafale de Tubes sans pub en HD !",
-          "latencyMs": 3503,
-          "verifiedAt": "2026-08-18T19:02:01.814Z",
-          "score": 74459
+          "latencyMs": 669,
+          "verifiedAt": "2026-08-19T01:57:10.962Z",
+          "score": 75026
         },
         {
           "url": "https://frequence3.net-radio.fr/frequence3-64.aac",
           "codec": "AAC",
-          "bitrate": 64,
+          "bitrate": 65,
           "sampling": 22050,
           "bitDepth": 0,
           "hls": 0,
@@ -5305,16 +5304,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3-64.aac",
           "icyName": "FREQUENCE 3 - Une Rafale de Tubes sans pub !",
-          "latencyMs": 609,
-          "verifiedAt": "2026-08-18T19:02:02.423Z",
-          "score": 69878
+          "latencyMs": 447,
+          "verifiedAt": "2026-08-19T01:57:11.410Z",
+          "score": 70011
         }
       ],
       "candidatesChecked": 5,
-      "verifiedAt": "2026-08-18T19:02:06.232Z",
+      "verifiedAt": "2026-08-19T01:57:11.837Z",
       "tags": "",
       "language": "french",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.frequence3.com/wp-content/uploads/2024/03/logo-F3-jaune-4000px-300x300.png"
     },
@@ -5344,9 +5343,9 @@
         "identityConfidence": 100,
         "finalUrl": "https://frequence3.net-radio.fr/frequence3urban.flac",
         "icyName": "FREQUENCE 3 URBAN - Le meilleur son Hip Hop, Rap et R'n'B sans pub",
-        "latencyMs": 943,
-        "verifiedAt": "2026-08-18T19:01:58.291Z",
-        "score": 137211
+        "latencyMs": 824,
+        "verifiedAt": "2026-08-19T01:57:07.936Z",
+        "score": 137235
       },
       "fallbacks": [
         {
@@ -5362,9 +5361,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3urban-64.aac",
           "icyName": "FREQUENCE 3 URBAN (AAC+) - Le meilleur son Hip Hop, Rap et R'n'B sans pub",
-          "latencyMs": 650,
-          "verifiedAt": "2026-08-18T19:02:02.659Z",
-          "score": 69870
+          "latencyMs": 446,
+          "verifiedAt": "2026-08-19T01:57:10.780Z",
+          "score": 69911
         },
         {
           "url": "https://frequence3.net-radio.fr/frequence3urban-256.mp3",
@@ -5379,9 +5378,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3urban-256.mp3",
           "icyName": "FREQUENCE 3 URBAN - Le meilleur son Hip Hop, Rap et R'n'B sans pub",
-          "latencyMs": 3719,
-          "verifiedAt": "2026-08-18T19:02:02.009Z",
-          "score": 68856
+          "latencyMs": 2398,
+          "verifiedAt": "2026-08-19T01:57:10.334Z",
+          "score": 69120
         },
         {
           "url": "https://frequence3.net-radio.fr/frequence3urban-128.mp3",
@@ -5395,16 +5394,16 @@
           "sampling": 44100,
           "bitDepth": 0,
           "icyName": "FREQUENCE 3 URBAN - Le meilleur son Hip Hop, Rap et R'n'B sans pub",
-          "latencyMs": 3580,
-          "verifiedAt": "2026-08-18T19:02:06.239Z",
-          "score": 64844
+          "latencyMs": 468,
+          "verifiedAt": "2026-08-19T01:57:11.249Z",
+          "score": 65466
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:02:06.239Z",
+      "verifiedAt": "2026-08-19T01:57:11.249Z",
       "tags": "pop,urban",
       "language": "french",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-urban.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-urban.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.frequence3.com/wp-content/uploads/2024/03/logo-F3-jaune-4000px-300x300.png"
     },
@@ -5434,28 +5433,11 @@
         "identityConfidence": 100,
         "finalUrl": "https://frequence3.net-radio.fr/frequence3gold.flac",
         "icyName": "FREQUENCE 3 GOLD - Le meilleur son des annÃ©es 80, 90 sans pub !",
-        "latencyMs": 508,
-        "verifiedAt": "2026-08-18T19:01:58.398Z",
-        "score": 137298
+        "latencyMs": 747,
+        "verifiedAt": "2026-08-19T01:57:07.823Z",
+        "score": 137251
       },
       "fallbacks": [
-        {
-          "url": "https://frequence3.net-radio.fr/frequence3gold.mp3",
-          "codec": "MP3",
-          "bitrate": 160,
-          "sampling": 44100,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://frequence3.net-radio.fr/frequence3gold.mp3",
-          "icyName": "FREQUENCE 3 GOLD - Le meilleur son des annÃ©es 80, 90 sans pub !",
-          "latencyMs": 669,
-          "verifiedAt": "2026-08-18T19:02:02.652Z",
-          "score": 69466
-        },
         {
           "url": "https://frequence3.net-radio.fr/frequence3gold.aac",
           "codec": "AAC",
@@ -5469,16 +5451,33 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3gold.aac",
           "icyName": "FREQUENCE 3 GOLD - Le meilleur son des annÃ©es 80, 90 sans pub !",
-          "latencyMs": 3585,
-          "verifiedAt": "2026-08-18T19:02:01.983Z",
-          "score": 69383
+          "latencyMs": 675,
+          "verifiedAt": "2026-08-19T01:57:08.498Z",
+          "score": 69965
+        },
+        {
+          "url": "https://frequence3.net-radio.fr/frequence3gold.mp3",
+          "codec": "MP3",
+          "bitrate": 160,
+          "sampling": 44100,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "https://frequence3.net-radio.fr/frequence3gold.mp3",
+          "icyName": "FREQUENCE 3 GOLD - Le meilleur son des annÃ©es 80, 90 sans pub !",
+          "latencyMs": 2361,
+          "verifiedAt": "2026-08-19T01:57:10.859Z",
+          "score": 69128
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:02:02.652Z",
+      "verifiedAt": "2026-08-19T01:57:10.859Z",
       "tags": "pop",
       "language": "french",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-gold.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-gold.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.frequence3.com/wp-content/uploads/2024/03/logo-F3-jaune-4000px-300x300.png"
     },
@@ -5508,11 +5507,28 @@
         "identityConfidence": 100,
         "finalUrl": "https://frequence3.net-radio.fr/frequence3dance.flac",
         "icyName": "FREQUENCE 3 DANCE - Le meilleur son House et Dance sans pub !",
-        "latencyMs": 2363,
-        "verifiedAt": "2026-08-18T19:02:02.011Z",
-        "score": 136927
+        "latencyMs": 659,
+        "verifiedAt": "2026-08-19T01:57:08.117Z",
+        "score": 137268
       },
       "fallbacks": [
+        {
+          "url": "https://frequence3.net-radio.fr/frequence3dance.aac",
+          "codec": "AAC",
+          "bitrate": 63,
+          "sampling": 22050,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "https://frequence3.net-radio.fr/frequence3dance.aac",
+          "icyName": "FREQUENCE 3 DANCE - Le meilleur son House et Dance sans pub !",
+          "latencyMs": 366,
+          "verifiedAt": "2026-08-19T01:57:08.483Z",
+          "score": 69827
+        },
         {
           "url": "https://frequence3.net-radio.fr/frequence3dance.mp3",
           "codec": "MP3",
@@ -5526,33 +5542,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3dance.mp3",
           "icyName": "FREQUENCE 3 DANCE - Le meilleur son House et Dance sans pub !",
-          "latencyMs": 642,
-          "verifiedAt": "2026-08-18T19:02:06.570Z",
-          "score": 69472
-        },
-        {
-          "url": "https://frequence3.net-radio.fr/frequence3dance.aac",
-          "codec": "AAC",
-          "bitrate": 64,
-          "sampling": 22050,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://frequence3.net-radio.fr/frequence3dance.aac",
-          "icyName": "FREQUENCE 3 DANCE - Le meilleur son House et Dance sans pub !",
-          "latencyMs": 3917,
-          "verifiedAt": "2026-08-18T19:02:05.928Z",
-          "score": 69217
+          "latencyMs": 2397,
+          "verifiedAt": "2026-08-19T01:57:10.881Z",
+          "score": 69121
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:02:06.571Z",
+      "verifiedAt": "2026-08-19T01:57:10.881Z",
       "tags": "dance,pop",
       "language": "french",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-dance.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-dance.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.frequence3.com/wp-content/uploads/2024/03/logo-F3-jaune-4000px-300x300.png"
     },
@@ -5582,28 +5581,11 @@
         "identityConfidence": 100,
         "finalUrl": "https://frequence3.net-radio.fr/frequence3world.flac",
         "icyName": "FREQUENCE 3 WORLD - La radio qui vous fait voyager...",
-        "latencyMs": 3400,
-        "verifiedAt": "2026-08-18T19:02:06.316Z",
-        "score": 136720
+        "latencyMs": 714,
+        "verifiedAt": "2026-08-19T01:57:08.007Z",
+        "score": 137257
       },
       "fallbacks": [
-        {
-          "url": "https://frequence3.net-radio.fr/frequence3world.aac",
-          "codec": "AAC",
-          "bitrate": 63,
-          "sampling": 22050,
-          "bitDepth": 0,
-          "hls": 0,
-          "trusted": true,
-          "official": true,
-          "source": "official",
-          "identityConfidence": 100,
-          "finalUrl": "https://frequence3.net-radio.fr/frequence3world.aac",
-          "icyName": "FREQUENCE 3 WORLD - La radio qui vous fait voyager...",
-          "latencyMs": 638,
-          "verifiedAt": "2026-08-18T19:02:06.955Z",
-          "score": 69772
-        },
         {
           "url": "https://frequence3.net-radio.fr/frequence3world.mp3",
           "codec": "MP3",
@@ -5617,16 +5599,33 @@
           "identityConfidence": 100,
           "finalUrl": "https://frequence3.net-radio.fr/frequence3world.mp3",
           "icyName": "FREQUENCE 3 WORLD - La radio qui vous fait voyager...",
-          "latencyMs": 631,
-          "verifiedAt": "2026-08-18T19:02:07.586Z",
-          "score": 69474
+          "latencyMs": 440,
+          "verifiedAt": "2026-08-19T01:57:11.027Z",
+          "score": 69512
+        },
+        {
+          "url": "https://frequence3.net-radio.fr/frequence3world.aac",
+          "codec": "AAC",
+          "bitrate": 64,
+          "sampling": 22050,
+          "bitDepth": 0,
+          "hls": 0,
+          "trusted": true,
+          "official": true,
+          "source": "official",
+          "identityConfidence": 100,
+          "finalUrl": "https://frequence3.net-radio.fr/frequence3world.aac",
+          "icyName": "FREQUENCE 3 WORLD - La radio qui vous fait voyager...",
+          "latencyMs": 2580,
+          "verifiedAt": "2026-08-19T01:57:10.587Z",
+          "score": 69484
         }
       ],
       "candidatesChecked": 3,
-      "verifiedAt": "2026-08-18T19:02:07.586Z",
+      "verifiedAt": "2026-08-19T01:57:11.027Z",
       "tags": "pop,world",
       "language": "french",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-world.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-frequence-3-world.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.frequence3.com/wp-content/uploads/2024/03/logo-F3-jaune-4000px-300x300.png"
     },
@@ -5657,16 +5656,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://stream.radioabf.com/abf-uhd.flac",
         "icyName": "Radio ABF - The DJs' Frequency",
-        "latencyMs": 1657,
-        "verifiedAt": "2026-08-18T19:02:07.565Z",
-        "score": 128679
+        "latencyMs": 3267,
+        "verifiedAt": "2026-08-19T01:57:11.402Z",
+        "score": 128357
       },
       "fallbacks": [
         {
           "url": "https://stream.radioabf.com/abf-hd.mp3",
           "codec": "MP3",
-          "bitrate": 384,
-          "sampling": 32000,
+          "bitrate": 320,
+          "sampling": 44100,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
@@ -5675,9 +5674,9 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radioabf.com/abf-hd.mp3",
           "icyName": "Radio ABF - The DJs' Frequency",
-          "latencyMs": 1396,
-          "verifiedAt": "2026-08-18T19:02:08.961Z",
-          "score": 91721
+          "latencyMs": 2397,
+          "verifiedAt": "2026-08-19T01:57:13.800Z",
+          "score": 85121
         },
         {
           "url": "https://stream.radioabf.com/abf-sd.mp3",
@@ -5692,16 +5691,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://stream.radioabf.com/abf-sd.mp3",
           "icyName": "Radio ABF - The DJs' Frequency",
-          "latencyMs": 2511,
-          "verifiedAt": "2026-08-18T19:02:11.472Z",
-          "score": 65898
+          "latencyMs": 2522,
+          "verifiedAt": "2026-08-19T01:57:16.322Z",
+          "score": 65896
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:02:16.972Z",
+      "verifiedAt": "2026-08-19T01:57:21.823Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-abf.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radio-abf.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://radioabf.com/logo-abf.png"
     },
@@ -5731,16 +5730,16 @@
         "identityConfidence": 100,
         "finalUrl": "https://icecast.radiosega.net/rs-flac.ogg",
         "icyName": "RadioSEGA (FLAC)",
-        "latencyMs": 1664,
-        "verifiedAt": "2026-08-18T19:02:07.789Z",
-        "score": 129067
+        "latencyMs": 3182,
+        "verifiedAt": "2026-08-19T01:57:11.711Z",
+        "score": 128764
       },
       "fallbacks": [
         {
           "url": "https://icecast.radiosega.net/live",
-          "codec": "AAC",
+          "codec": "MP3",
           "bitrate": 144,
-          "sampling": 24000,
+          "sampling": 8000,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
@@ -5749,16 +5748,16 @@
           "identityConfidence": 100,
           "finalUrl": "https://icecast.radiosega.net/live",
           "icyName": "RadioSEGA (HE-AAC v2)",
-          "latencyMs": 2608,
-          "verifiedAt": "2026-08-18T19:02:10.397Z",
-          "score": 77478
+          "latencyMs": 3391,
+          "verifiedAt": "2026-08-19T01:57:15.102Z",
+          "score": 67322
         }
       ],
       "candidatesChecked": 2,
-      "verifiedAt": "2026-08-18T19:02:10.398Z",
+      "verifiedAt": "2026-08-19T01:57:15.102Z",
       "tags": "",
       "language": "",
-      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radiosega.png?v=2026-08-18T19%3A02%3A16.972Z",
+      "logoUrl": "https://cdn.jsdelivr.net/gh/arasjuska/top-radio-provider@master/dist/logos/hq-radiosega.png?v=2026-08-19T01%3A57%3A21.823Z",
       "logoSource": "provider-cache",
       "originalLogoUrl": "https://www.radiosega.net/_images/icons/apple-touch-icon.png"
     },
@@ -5787,9 +5786,9 @@
         "identityConfidence": 100,
         "finalUrl": "http://progressieverock.nl:8080/flac",
         "icyName": "Progressieve Rock (flac +/- 900kbit/s)",
-        "latencyMs": 2928,
-        "verifiedAt": "2026-08-18T19:02:09.274Z",
-        "score": 128424
+        "latencyMs": 4867,
+        "verifiedAt": "2026-08-19T01:57:14.030Z",
+        "score": 128037
       },
       "fallbacks": [
         {
@@ -5805,9 +5804,9 @@
           "identityConfidence": 100,
           "finalUrl": "http://progressieverock.nl:8080/luisteren",
           "icyName": "Progressieve Rock (mp3 320kbit/s)",
-          "latencyMs": 1757,
-          "verifiedAt": "2026-08-18T19:02:11.031Z",
-          "score": 85249
+          "latencyMs": 2014,
+          "verifiedAt": "2026-08-19T01:57:16.045Z",
+          "score": 85197
         },
         {
           "url": "http://progressieverock.nl:8080/luisteren",
@@ -5821,15 +5820,15 @@
           "sampling": 48000,
           "bitDepth": 0,
           "icyName": "Progressieve Rock (mp3 320kbit/s)",
-          "latencyMs": 1844,
-          "verifiedAt": "2026-08-18T19:02:12.876Z",
-          "score": 81191
+          "latencyMs": 2000,
+          "verifiedAt": "2026-08-19T01:57:18.045Z",
+          "score": 81160
         },
         {
           "url": "http://progressieverock.nl:8080/tablet",
           "codec": "MP3",
-          "bitrate": 128,
-          "sampling": 12000,
+          "bitrate": 144,
+          "sampling": 16000,
           "bitDepth": 0,
           "hls": 0,
           "trusted": true,
@@ -5838,13 +5837,13 @@
           "identityConfidence": 100,
           "finalUrl": "http://progressieverock.nl:8080/tablet",
           "icyName": "Progressieve Rock (opus 96kbit/s)",
-          "latencyMs": 3982,
-          "verifiedAt": "2026-08-18T19:02:16.858Z",
-          "score": 65604
+          "latencyMs": 3440,
+          "verifiedAt": "2026-08-19T01:57:21.485Z",
+          "score": 67312
         }
       ],
       "candidatesChecked": 4,
-      "verifiedAt": "2026-08-18T19:02:16.858Z",
+      "verifiedAt": "2026-08-19T01:57:21.485Z",
       "tags": "",
       "language": "",
       "logoUrl": "",
